@@ -1,0 +1,1 @@
+This rule can not be exported due to it containing custom Events.  Therefore it requires manual creation.  See help guide.

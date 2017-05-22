@@ -1,0 +1,337 @@
+<?xml version="1.0" standalone="yes"?>
+<RuleDataset>
+  <ExportInfo>
+    <ExportConsoleVersion>7.3.0.0</ExportConsoleVersion>
+    <KBVersion>7.1.382.0</KBVersion>
+    <DateExported>2017-05-19T09:26:29.2125936-04:00</DateExported>
+    <ExportLicense>646</ExportLicense>
+    <ExportUser>logrhythmadmin</ExportUser>
+  </ExportInfo>
+  <MPERule>
+    <MPERuleID>1000000026</MPERuleID>
+    <MPERuleRegexID>1000000007</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035610</CommonEventID>
+    <CommonEventName>General Registry Monitor Event</CommonEventName>
+    <MsgClassID>2900</MsgClassID>
+    <Name>Registry Monitor</Name>
+    <FullName>Registry Monitor</FullName>
+    <BaseRule>1</BaseRule>
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:19:13.75-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>2</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>2</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000021</MPERuleID>
+    <MPERuleRegexID>1000000007</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035615</CommonEventID>
+    <CommonEventName>Registry Monitoring Event - Rename</CommonEventName>
+    <MsgClassID>2900</MsgClassID>
+    <Name>RENAME</Name>
+    <FullName>RENAME</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T21:57:12.667-04:00</DateUpdated>
+    <SortOrder>5</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>2</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>2</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=rename</MapVMID>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000022</MPERuleID>
+    <MPERuleRegexID>1000000007</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035614</CommonEventID>
+    <CommonEventName>Registry Monitoring Event - Permissions</CommonEventName>
+    <MsgClassID>2900</MsgClassID>
+    <Name>PERMISSIONS</Name>
+    <FullName>PERMISSIONS</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T21:57:12.667-04:00</DateUpdated>
+    <SortOrder>4</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>2</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>2</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=perms</MapVMID>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000023</MPERuleID>
+    <MPERuleRegexID>1000000007</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035613</CommonEventID>
+    <CommonEventName>Registry Monitoring Event - Modify</CommonEventName>
+    <MsgClassID>2900</MsgClassID>
+    <Name>MODIFY</Name>
+    <FullName>MODIFY</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T21:57:12.663-04:00</DateUpdated>
+    <SortOrder>3</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>2</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>2</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=modify</MapVMID>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000024</MPERuleID>
+    <MPERuleRegexID>1000000007</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035612</CommonEventID>
+    <CommonEventName>Registry Monitoring Event - Delete</CommonEventName>
+    <MsgClassID>2900</MsgClassID>
+    <Name>DELETE</Name>
+    <FullName>DELETE</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T21:57:12.663-04:00</DateUpdated>
+    <SortOrder>2</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>2</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>2</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=delete</MapVMID>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000025</MPERuleID>
+    <MPERuleRegexID>1000000007</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035611</CommonEventID>
+    <CommonEventName>Registry Monitoring Event - Add</CommonEventName>
+    <MsgClassID>2900</MsgClassID>
+    <Name>ADD</Name>
+    <FullName>ADD</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T21:57:12.663-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>2</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>2</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=add</MapVMID>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERuleRegex>
+    <MPERuleRegexID>1000000007</MPERuleRegexID>
+    <RegexTagged>regmon event=(?&lt;vmid&gt;\w+)\skey=(?&lt;object&gt;.*?)\svalue=(?&lt;objectname&gt;.*?)\suser=((((?&lt;domain&gt;.*?)\\)?(?&lt;login&gt;.*?)))\sprocess=(?&lt;process&gt;.*?)(\s.*?perms_desc=(?&lt;command&gt;.*?))?\sdetails=.*?usersid=.*?pid=(?&lt;processid&gt;\d+)\stype=(?&lt;group&gt;.*?)\sdata=(\&lt;)?(?&lt;subject&gt;.*?)(\snewname|\&gt;|$|\n)</RegexTagged>
+    <IgnoreCase>1</IgnoreCase>
+    <Multiline>0</Multiline>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:19:13.76-04:00</DateUpdated>
+    <PerfMonMode>1</PerfMonMode>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+  </MPERuleRegex>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000000005</MsgSourceTypeID>
+    <MPERuleRegexID>1000000007</MPERuleRegexID>
+    <SortOrder>1</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <CommonEvent>
+    <CommonEventID>1035610</CommonEventID>
+    <MsgClassID>2900</MsgClassID>
+    <Name>General Registry Monitor Event</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2014-09-30T14:42:14.183-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035611</CommonEventID>
+    <MsgClassID>2900</MsgClassID>
+    <Name>Registry Monitoring Event - Add</Name>
+    <ShortDesc />
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2014-09-30T14:59:40.86-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035612</CommonEventID>
+    <MsgClassID>2900</MsgClassID>
+    <Name>Registry Monitoring Event - Delete</Name>
+    <ShortDesc />
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2014-09-30T15:01:15.573-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035613</CommonEventID>
+    <MsgClassID>2900</MsgClassID>
+    <Name>Registry Monitoring Event - Modify</Name>
+    <ShortDesc />
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2014-09-30T15:04:20.143-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035614</CommonEventID>
+    <MsgClassID>2900</MsgClassID>
+    <Name>Registry Monitoring Event - Permissions</Name>
+    <ShortDesc />
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2014-09-30T15:06:07.67-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035615</CommonEventID>
+    <MsgClassID>2900</MsgClassID>
+    <Name>Registry Monitoring Event - Rename</Name>
+    <ShortDesc />
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2014-09-30T15:06:59.55-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000000005</MsgSourceTypeID>
+    <Name>ECHO - LogRhythm Registry Integrity Monitor</Name>
+    <FullName>ECHO - LogRhythm Registry Integrity Monitor</FullName>
+    <Abbreviation>LogRhythm RIM</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-03-16T21:56:35.96-04:00</DateUpdated>
+    <MsgSourceFormat>3</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+</RuleDataset>

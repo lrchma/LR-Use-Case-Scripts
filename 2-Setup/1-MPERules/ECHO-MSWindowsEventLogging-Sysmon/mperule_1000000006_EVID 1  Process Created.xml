@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes"?>
+<RuleDataset>
+  <ExportInfo>
+    <ExportConsoleVersion>7.3.0.0</ExportConsoleVersion>
+    <KBVersion>7.1.382.0</KBVersion>
+    <DateExported>2017-05-19T09:36:03.7406967-04:00</DateExported>
+    <ExportLicense>646</ExportLicense>
+    <ExportUser>logrhythmadmin</ExportUser>
+  </ExportInfo>
+  <MPERule>
+    <MPERuleID>1000000020</MPERuleID>
+    <MPERuleRegexID>1000000006</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10404</CommonEventID>
+    <CommonEventName>Process/Service Started</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 1 : Process Created</Name>
+    <FullName>EVID 1 : Process Created</FullName>
+    <BaseRule>1</BaseRule>
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-01T00:17:13.023-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>2</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERuleRegex>
+    <MPERuleRegexID>1000000006</MPERuleRegexID>
+    <RegexTagged>^.*?&lt;eventid&gt;(?&lt;vmid&gt;1)&lt;/eventid&gt;.*?&lt;level&gt;(?&lt;severity&gt;.*?)&lt;/level&gt;.*?&lt;computer&gt;(?&lt;sname&gt;.*?)&lt;/computer&gt;.*?\r\n(sequencenumber:.*?\r\n)?.*?\r\n.*?\r\nprocessid:(?&lt;processid&gt;.*?)\r\nimage:((?&lt;object&gt;.*\\)?)(?&lt;process&gt;[^\r]+)\r\ncommandline:(?&lt;command&gt;[^\r]+)\r\n(currentdirectory:.*?\r\n)?user:((?&lt;domain&gt;.*?)\\)?(?&lt;login&gt;[^\r]+)\r\n[^\r]+\r\nLogonId:(?&lt;session&gt;[^\r]+)\r\nterminalsessionid:(?&lt;group&gt;[^\r]+)\r\n.*?\r\n(hashtype:.*?\r\n)?hash(es)?:.*?=(?&lt;hash&gt;[^\r]+)\r\nParentProcessGuid.*?\r\nParentProcessId:(?&lt;parentprocessid&gt;[^\r]+)\r\nParentImage:((?&lt;parentprocesspath&gt;.*\\)?)(?&lt;parentprocessname&gt;[^\r]+)\r\n</RegexTagged>
+    <IgnoreCase>1</IgnoreCase>
+    <Multiline>1</Multiline>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-01T00:17:12.99-04:00</DateUpdated>
+    <PerfMonMode>1</PerfMonMode>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+  </MPERuleRegex>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000000003</MsgSourceTypeID>
+    <MPERuleRegexID>1000000006</MPERuleRegexID>
+    <SortOrder>1</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <CommonEvent>
+    <CommonEventID>10404</CommonEventID>
+    <MsgClassID>1400</MsgClassID>
+    <Name>Process/Service Started</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2011-11-03T13:32:24.563-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000000003</MsgSourceTypeID>
+    <Name>ECHO - MS Windows Event Logging XML - Sysmon</Name>
+    <FullName>ECHO - MS Windows Event Logging XML - Sysmon</FullName>
+    <Abbreviation>Sysmon</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-03-16T20:59:48.153-04:00</DateUpdated>
+    <MsgSourceFormat>3</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+</RuleDataset>

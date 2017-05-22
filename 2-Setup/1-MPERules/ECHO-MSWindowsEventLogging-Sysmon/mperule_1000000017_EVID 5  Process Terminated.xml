@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes"?>
+<RuleDataset>
+  <ExportInfo>
+    <ExportConsoleVersion>7.3.0.0</ExportConsoleVersion>
+    <KBVersion>7.1.382.0</KBVersion>
+    <DateExported>2017-05-19T09:36:14.1731916-04:00</DateExported>
+    <ExportLicense>646</ExportLicense>
+    <ExportUser>logrhythmadmin</ExportUser>
+  </ExportInfo>
+  <MPERule>
+    <MPERuleID>1000003214</MPERuleID>
+    <MPERuleRegexID>1000000017</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>14889</CommonEventID>
+    <CommonEventName>Process/Service Stopped</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 5 : Process Terminated</Name>
+    <FullName>EVID 5 : Process Terminated</FullName>
+    <BaseRule>1</BaseRule>
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-04-30T23:31:19.127-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>6</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>2</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERuleRegex>
+    <MPERuleRegexID>1000000017</MPERuleRegexID>
+    <RegexTagged>^.*?&lt;eventid&gt;(?&lt;vmid&gt;5)&lt;/eventid&gt;.*?&lt;level&gt;(?&lt;severity&gt;.*?)&lt;/level&gt;.*?&lt;computer&gt;(?&lt;sname&gt;.*?)&lt;/computer&gt;.*?&lt;eventdata&gt;.*?\r\n(sequencenumber:.*?\r\n)?.*?\r\n.*?\r\nprocessid:(?&lt;processid&gt;.*?)\r\nimage:\s+(?&lt;object&gt;.*\\)?(?&lt;objectname&gt;.*?)&lt;/eventdata&gt;</RegexTagged>
+    <IgnoreCase>1</IgnoreCase>
+    <Multiline>1</Multiline>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-04-30T23:31:19.137-04:00</DateUpdated>
+    <PerfMonMode>1</PerfMonMode>
+    <VersionMajor>6</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+  </MPERuleRegex>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000000003</MsgSourceTypeID>
+    <MPERuleRegexID>1000000017</MPERuleRegexID>
+    <SortOrder>2</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <CommonEvent>
+    <CommonEventID>14889</CommonEventID>
+    <MsgClassID>1400</MsgClassID>
+    <Name>Process/Service Stopped</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2011-11-03T13:33:14.067-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000000003</MsgSourceTypeID>
+    <Name>ECHO - MS Windows Event Logging XML - Sysmon</Name>
+    <FullName>ECHO - MS Windows Event Logging XML - Sysmon</FullName>
+    <Abbreviation>Sysmon</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-03-16T20:59:48.153-04:00</DateUpdated>
+    <MsgSourceFormat>3</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+</RuleDataset>

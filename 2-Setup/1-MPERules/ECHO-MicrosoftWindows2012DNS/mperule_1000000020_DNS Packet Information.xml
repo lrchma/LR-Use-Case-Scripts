@@ -1,0 +1,3715 @@
+<?xml version="1.0" standalone="yes"?>
+<RuleDataset>
+  <ExportInfo>
+    <ExportConsoleVersion>7.3.0.0</ExportConsoleVersion>
+    <KBVersion>7.1.382.0</KBVersion>
+    <DateExported>2017-05-19T09:27:10.3233135-04:00</DateExported>
+    <ExportLicense>646</ExportLicense>
+    <ExportUser>logrhythmadmin</ExportUser>
+  </ExportInfo>
+  <MPERule>
+    <MPERuleID>1000003295</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>8531</CommonEventID>
+    <CommonEventName>General DNS Information</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>DNS Packet Information</Name>
+    <FullName>DNS Packet Information</FullName>
+    <BaseRule>1</BaseRule>
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.32-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003217</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Response Query With Recursion Desire</Name>
+    <FullName>Authoritative Response Query With Recursion Desire</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=q</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.38-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003218</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Response Query With Recursion Avail</Name>
+    <FullName>Authoritative Response Query With Recursion Avail</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=q</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.377-04:00</DateUpdated>
+    <SortOrder>2</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003219</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Response Query With Recursion</Name>
+    <FullName>Authoritative Response Query With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=q</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.377-04:00</DateUpdated>
+    <SortOrder>3</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003220</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Response Query With Recursion Desired</Name>
+    <FullName>Truncated Response Query With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=q</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.377-04:00</DateUpdated>
+    <SortOrder>4</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003221</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Response Query With Recursion Avail</Name>
+    <FullName>Truncated Response Query With Recursion Avail</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=q</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.377-04:00</DateUpdated>
+    <SortOrder>5</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003222</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Response Query With Recursion</Name>
+    <FullName>Truncated Response Query With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=q</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.377-04:00</DateUpdated>
+    <SortOrder>6</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003223</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Response Query With Recursion Desired</Name>
+    <FullName>Response Query With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=q</MapTag2>
+    <MapTag3 />
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.373-04:00</DateUpdated>
+    <SortOrder>7</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003224</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Response Update With Recursion</Name>
+    <FullName>Authoritative Response Update With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=u</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.373-04:00</DateUpdated>
+    <SortOrder>21</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003225</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Resp Update With Recursion Desired</Name>
+    <FullName>Truncated Resp Update With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=u</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.373-04:00</DateUpdated>
+    <SortOrder>22</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003226</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Resp Update With Recursion Avail</Name>
+    <FullName>Truncated Resp Update With Recursion Avail</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=u</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.373-04:00</DateUpdated>
+    <SortOrder>23</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003227</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Response Update With Recursion</Name>
+    <FullName>Truncated Response Update With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=u</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.37-04:00</DateUpdated>
+    <SortOrder>24</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003228</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Response Update With Recursion Desired</Name>
+    <FullName>Response Update With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=u</MapTag2>
+    <MapTag3 />
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.37-04:00</DateUpdated>
+    <SortOrder>25</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003229</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Response Update With Recursion Available</Name>
+    <FullName>Response Update With Recursion Available</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=u</MapTag2>
+    <MapTag3 />
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.37-04:00</DateUpdated>
+    <SortOrder>26</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003230</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Response Update With Recursion</Name>
+    <FullName>Response Update With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=u</MapTag2>
+    <MapTag3 />
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.37-04:00</DateUpdated>
+    <SortOrder>27</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003231</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035379</CommonEventID>
+    <CommonEventName>DNS Response</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Resp Unkwn With Recursion Desired</Name>
+    <FullName>Authoritative Resp Unkwn With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=?</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.37-04:00</DateUpdated>
+    <SortOrder>28</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003232</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Standard Query</Name>
+    <FullName>Standard Query</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=q</MapTag2>
+    <MapTag3 />
+    <MapTag4 />
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.367-04:00</DateUpdated>
+    <SortOrder>78</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003233</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Response Query</Name>
+    <FullName>Response Query</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=q</MapTag2>
+    <MapTag3 />
+    <MapTag4 />
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.367-04:00</DateUpdated>
+    <SortOrder>77</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003234</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Response Update</Name>
+    <FullName>Response Update</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=u</MapTag2>
+    <MapTag3 />
+    <MapTag4 />
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.363-04:00</DateUpdated>
+    <SortOrder>76</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003235</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Query Update</Name>
+    <FullName>Query Update</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=u</MapTag2>
+    <MapTag3 />
+    <MapTag4 />
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.363-04:00</DateUpdated>
+    <SortOrder>75</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003236</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Trunacted Authoritative Resp Query With Recursion</Name>
+    <FullName>Trunacted Authoritative Resp Query With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=q</MapTag2>
+    <MapTag3>=at</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.363-04:00</DateUpdated>
+    <SortOrder>73</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003237</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Query Unkwn With Recursion</Name>
+    <FullName>Query Unkwn With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=?</MapTag2>
+    <MapTag3 />
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.363-04:00</DateUpdated>
+    <SortOrder>72</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003238</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Query Unkwn With Recursion Available</Name>
+    <FullName>Query Unkwn With Recursion Available</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=?</MapTag2>
+    <MapTag3 />
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.363-04:00</DateUpdated>
+    <SortOrder>71</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003239</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Query Unkwn With Recursion Desired</Name>
+    <FullName>Query Unkwn With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=?</MapTag2>
+    <MapTag3 />
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.363-04:00</DateUpdated>
+    <SortOrder>70</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003240</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Query Unkwn With Recursion</Name>
+    <FullName>Truncated Query Unkwn With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=?</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.36-04:00</DateUpdated>
+    <SortOrder>69</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003241</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Query Unkwn With Recursion Avail</Name>
+    <FullName>Truncated Query Unkwn With Recursion Avail</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=?</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.36-04:00</DateUpdated>
+    <SortOrder>68</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003242</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Query Unkwn With Recursion Desired</Name>
+    <FullName>Truncated Query Unkwn With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=?</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.36-04:00</DateUpdated>
+    <SortOrder>67</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003243</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Query Unkwn With Recursion</Name>
+    <FullName>Authoritative Query Unkwn With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=?</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.36-04:00</DateUpdated>
+    <SortOrder>66</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003244</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Query Unkwn With Recursion Avail</Name>
+    <FullName>Authoritative Query Unkwn With Recursion Avail</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=?</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.36-04:00</DateUpdated>
+    <SortOrder>65</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003245</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Query Unkwn With Recursion Desired</Name>
+    <FullName>Authoritative Query Unkwn With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=?</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.36-04:00</DateUpdated>
+    <SortOrder>64</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003246</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Query Update With Recursion</Name>
+    <FullName>Query Update With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=u</MapTag2>
+    <MapTag3 />
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.36-04:00</DateUpdated>
+    <SortOrder>63</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003247</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Query Update With Recursion Available</Name>
+    <FullName>Query Update With Recursion Available</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=u</MapTag2>
+    <MapTag3 />
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.357-04:00</DateUpdated>
+    <SortOrder>62</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003248</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Query Update With Recursion Desired</Name>
+    <FullName>Query Update With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=u</MapTag2>
+    <MapTag3 />
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.357-04:00</DateUpdated>
+    <SortOrder>61</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003249</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Query Update With Recursion</Name>
+    <FullName>Truncated Query Update With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=u</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.357-04:00</DateUpdated>
+    <SortOrder>60</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003250</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Query Update With Recursion Avail</Name>
+    <FullName>Truncated Query Update With Recursion Avail</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=u</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.357-04:00</DateUpdated>
+    <SortOrder>59</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003251</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Query Update With Recursion Desired</Name>
+    <FullName>Truncated Query Update With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=u</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.357-04:00</DateUpdated>
+    <SortOrder>58</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003252</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Query Update With Recursion</Name>
+    <FullName>Authoritative Query Update With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=u</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.357-04:00</DateUpdated>
+    <SortOrder>57</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003253</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Query Update With Recursion Avail</Name>
+    <FullName>Authoritative Query Update With Recursion Avail</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=u</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.353-04:00</DateUpdated>
+    <SortOrder>56</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003254</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Query Update With Recursion Desired</Name>
+    <FullName>Authoritative Query Update With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=u</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.353-04:00</DateUpdated>
+    <SortOrder>55</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003255</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Query Notification With Recursion</Name>
+    <FullName>Query Notification With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=n</MapTag2>
+    <MapTag3 />
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.353-04:00</DateUpdated>
+    <SortOrder>54</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003256</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Query Notify With Recursion Available</Name>
+    <FullName>Query Notify With Recursion Available</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=n</MapTag2>
+    <MapTag3 />
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.353-04:00</DateUpdated>
+    <SortOrder>53</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003257</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Query Notify With Recursion Desired</Name>
+    <FullName>Query Notify With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=n</MapTag2>
+    <MapTag3 />
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.353-04:00</DateUpdated>
+    <SortOrder>52</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003258</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Query Notification With Recursion</Name>
+    <FullName>Truncated Query Notification With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=n</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.35-04:00</DateUpdated>
+    <SortOrder>51</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003259</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Query Notify With Recursion Avail</Name>
+    <FullName>Truncated Query Notify With Recursion Avail</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=n</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.35-04:00</DateUpdated>
+    <SortOrder>50</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003260</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Query Notify With Recursion Desired</Name>
+    <FullName>Truncated Query Notify With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=n</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.35-04:00</DateUpdated>
+    <SortOrder>49</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003261</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Response Query With Recursion Available</Name>
+    <FullName>Response Query With Recursion Available</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=q</MapTag2>
+    <MapTag3 />
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.35-04:00</DateUpdated>
+    <SortOrder>8</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003262</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Response Query With Recursion</Name>
+    <FullName>Response Query With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=q</MapTag2>
+    <MapTag3 />
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.35-04:00</DateUpdated>
+    <SortOrder>9</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003263</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Resp Notify With Recursion Desired</Name>
+    <FullName>Authoritative Resp Notify With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=n</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.35-04:00</DateUpdated>
+    <SortOrder>10</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003264</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Resp Notify With Recursion Avail</Name>
+    <FullName>Authoritative Resp Notify With Recursion Avail</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=n</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.347-04:00</DateUpdated>
+    <SortOrder>11</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003265</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Response Notification With Recursion</Name>
+    <FullName>Authoritative Response Notification With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=n</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.347-04:00</DateUpdated>
+    <SortOrder>12</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003266</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Resp Notify With Recursion Desired</Name>
+    <FullName>Truncated Resp Notify With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=n</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.347-04:00</DateUpdated>
+    <SortOrder>13</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003267</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Resp Notify With Recursion Avail</Name>
+    <FullName>Truncated Resp Notify With Recursion Avail</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=n</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.347-04:00</DateUpdated>
+    <SortOrder>14</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003268</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Response Notification With Recursion</Name>
+    <FullName>Truncated Response Notification With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=n</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.343-04:00</DateUpdated>
+    <SortOrder>15</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003269</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Response Notify With Recursion Desired</Name>
+    <FullName>Response Notify With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=n</MapTag2>
+    <MapTag3 />
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.343-04:00</DateUpdated>
+    <SortOrder>16</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003270</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Response Notify With Recursion Available</Name>
+    <FullName>Response Notify With Recursion Available</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=n</MapTag2>
+    <MapTag3 />
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.343-04:00</DateUpdated>
+    <SortOrder>17</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003271</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Response Notification With Recursion</Name>
+    <FullName>Response Notification With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=n</MapTag2>
+    <MapTag3 />
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.343-04:00</DateUpdated>
+    <SortOrder>18</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003272</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Resp Update With Recursion Desired</Name>
+    <FullName>Authoritative Resp Update With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=u</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.343-04:00</DateUpdated>
+    <SortOrder>19</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003273</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035388</CommonEventID>
+    <CommonEventName>DNS Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Resp Update With Recursion Avail</Name>
+    <FullName>Authoritative Resp Update With Recursion Avail</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=u</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.343-04:00</DateUpdated>
+    <SortOrder>20</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003274</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Query Notification With Recursion</Name>
+    <FullName>Authoritative Query Notification With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=n</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.34-04:00</DateUpdated>
+    <SortOrder>48</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003275</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Query Notify With Recursion Avail</Name>
+    <FullName>Authoritative Query Notify With Recursion Avail</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=n</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.34-04:00</DateUpdated>
+    <SortOrder>47</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003276</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035387</CommonEventID>
+    <CommonEventName>DNS Notification</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Query Notify With Recursion Desired</Name>
+    <FullName>Authoritative Query Notify With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=n</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.34-04:00</DateUpdated>
+    <SortOrder>46</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003277</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Query With Recursion</Name>
+    <FullName>Query With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=q</MapTag2>
+    <MapTag3 />
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.34-04:00</DateUpdated>
+    <SortOrder>45</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003278</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Query With Recursion Available</Name>
+    <FullName>Query With Recursion Available</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=q</MapTag2>
+    <MapTag3 />
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.34-04:00</DateUpdated>
+    <SortOrder>44</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003279</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Query With Recursion Desired</Name>
+    <FullName>Query With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=q</MapTag2>
+    <MapTag3 />
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.337-04:00</DateUpdated>
+    <SortOrder>43</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003280</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Query With Recursion</Name>
+    <FullName>Truncated Query With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=q</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.337-04:00</DateUpdated>
+    <SortOrder>42</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003281</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Query With Recursion Avail</Name>
+    <FullName>Truncated Query With Recursion Avail</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=q</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.337-04:00</DateUpdated>
+    <SortOrder>41</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003282</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035379</CommonEventID>
+    <CommonEventName>DNS Response</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Resp Unkwn With Recursion Avail</Name>
+    <FullName>Authoritative Resp Unkwn With Recursion Avail</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=?</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.337-04:00</DateUpdated>
+    <SortOrder>29</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003283</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035379</CommonEventID>
+    <CommonEventName>DNS Response</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Response Unkwn With Recursion</Name>
+    <FullName>Authoritative Response Unkwn With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=?</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.337-04:00</DateUpdated>
+    <SortOrder>30</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003284</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035379</CommonEventID>
+    <CommonEventName>DNS Response</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Resp Unkwn With Recursion Desired</Name>
+    <FullName>Truncated Resp Unkwn With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=?</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.333-04:00</DateUpdated>
+    <SortOrder>31</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003285</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035379</CommonEventID>
+    <CommonEventName>DNS Response</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Resp Unkwn With Recursion Avail</Name>
+    <FullName>Truncated Resp Unkwn With Recursion Avail</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=?</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.333-04:00</DateUpdated>
+    <SortOrder>32</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003286</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035379</CommonEventID>
+    <CommonEventName>DNS Response</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Response Unkwn With Recursion</Name>
+    <FullName>Truncated Response Unkwn With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=?</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.333-04:00</DateUpdated>
+    <SortOrder>33</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003287</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035379</CommonEventID>
+    <CommonEventName>DNS Response</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Response Unkwn With Recursion Desired</Name>
+    <FullName>Response Unkwn With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=?</MapTag2>
+    <MapTag3 />
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.333-04:00</DateUpdated>
+    <SortOrder>34</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003288</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035379</CommonEventID>
+    <CommonEventName>DNS Response</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Response Unkwn With Recursion Available</Name>
+    <FullName>Response Unkwn With Recursion Available</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=?</MapTag2>
+    <MapTag3 />
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.33-04:00</DateUpdated>
+    <SortOrder>35</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003289</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035379</CommonEventID>
+    <CommonEventName>DNS Response</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Response Unkwn With Recursion</Name>
+    <FullName>Response Unkwn With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=?</MapTag2>
+    <MapTag3 />
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.33-04:00</DateUpdated>
+    <SortOrder>36</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003290</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Query With Recursion Desire</Name>
+    <FullName>Authoritative Query With Recursion Desire</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=q</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.33-04:00</DateUpdated>
+    <SortOrder>37</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003291</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Query With Recursion Available</Name>
+    <FullName>Authoritative Query With Recursion Available</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=q</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=r</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.33-04:00</DateUpdated>
+    <SortOrder>38</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003292</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Authoritative Query With Recursion</Name>
+    <FullName>Authoritative Query With Recursion</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=q</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>=dr</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.33-04:00</DateUpdated>
+    <SortOrder>39</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003293</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035385</CommonEventID>
+    <CommonEventName>DNS Query</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Truncated Query With Recursion Desired</Name>
+    <FullName>Truncated Query With Recursion Desired</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>=q</MapTag2>
+    <MapTag3>=t</MapTag3>
+    <MapTag4>=d</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.327-04:00</DateUpdated>
+    <SortOrder>40</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003294</MPERuleID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>14593</CommonEventID>
+    <CommonEventName>DNS Reply</CommonEventName>
+    <MsgClassID>3520</MsgClassID>
+    <Name>Authoritative Response</Name>
+    <FullName>Authoritative Response</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=r</MapTag1>
+    <MapTag2>=q</MapTag2>
+    <MapTag3>=a</MapTag3>
+    <MapTag4>*</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.327-04:00</DateUpdated>
+    <SortOrder>74</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSName>*</MapSName>
+    <MapProtocolID>*</MapProtocolID>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERuleRegex>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <RegexTagged>(?&lt;protname&gt;udp|tcp) (snd &lt;dip&gt;|rcv &lt;sip&gt;)\s+(?&lt;session&gt;\S+)\s+((?&lt;tag1&gt;r)\s+)?(?&lt;tag2&gt;q|n|u|\?)\s+\[\w+\s+(?&lt;tag3&gt;a|t|at)?(\s+)?(?&lt;tag4&gt;d|r|dr)?\s+(?&lt;object&gt;.*?)\]\s(?&lt;command&gt;\w+)\s+(?:\(\d\))?(?&lt;url&gt;(?&lt;sname&gt;[^\.\(]*(?:(\.|\(\d+\))?(?&lt;domain&gt;[^\.\(]+)(?:(\.|\(\d+\)).*?))?))$</RegexTagged>
+    <IgnoreCase>1</IgnoreCase>
+    <Multiline>0</Multiline>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-02T23:59:41.397-04:00</DateUpdated>
+    <PerfMonMode>1</PerfMonMode>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+  </MPERuleRegex>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000000010</MsgSourceTypeID>
+    <MPERuleRegexID>1000000020</MPERuleRegexID>
+    <SortOrder>1</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <CommonEvent>
+    <CommonEventID>8531</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>General DNS Information</Name>
+    <ShortDesc>General Domain Name Server (DNS) Information</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2007-06-28T15:30:11.507-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>14593</CommonEventID>
+    <MsgClassID>3520</MsgClassID>
+    <Name>DNS Reply</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2007-07-06T13:26:51.547-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035379</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>DNS Response</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2014-03-26T18:41:51.98-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035385</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>DNS Query</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2014-03-26T18:41:45.427-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035387</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>DNS Notification</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2014-03-26T18:42:15.507-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035388</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>DNS Update</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2014-03-26T18:46:14.71-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000000010</MsgSourceTypeID>
+    <Name>ECHO - Microsoft Windows 2012 DNS</Name>
+    <FullName>ECHO - Microsoft Windows 2012 DNS</FullName>
+    <Abbreviation>Win 2012 DNS</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-05-02T23:56:54.497-04:00</DateUpdated>
+    <MsgSourceFormat>3</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+</RuleDataset>

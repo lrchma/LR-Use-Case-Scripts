@@ -1,0 +1,184 @@
+<?xml version="1.0" standalone="yes"?>
+<RuleDataset>
+  <ExportInfo>
+    <ExportConsoleVersion>7.3.0.0</ExportConsoleVersion>
+    <KBVersion>7.1.382.0</KBVersion>
+    <DateExported>2017-05-18T23:21:28.2677795-04:00</DateExported>
+    <ExportLicense>646</ExportLicense>
+    <ExportUser>logrhythmadmin</ExportUser>
+  </ExportInfo>
+  <MPERule>
+    <MPERuleID>1000000014</MPERuleID>
+    <MPERuleRegexID>1000000004</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035991</CommonEventID>
+    <CommonEventName>Watchlist Hit</CommonEventName>
+    <MsgClassID>2900</MsgClassID>
+    <Name>Watchlist Hit : Binary</Name>
+    <FullName>Watchlist Hit : Binary</FullName>
+    <BaseRule>1</BaseRule>
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T00:59:12.883-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000012</MPERuleID>
+    <MPERuleRegexID>1000000004</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035991</CommonEventID>
+    <CommonEventName>Watchlist Hit</CommonEventName>
+    <MsgClassID>2900</MsgClassID>
+    <Name>Watchlist Hit : Unsigned Binary</Name>
+    <FullName>Watchlist Hit : Unsigned Binary</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=unsigned</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T00:54:24.91-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapDName>*</MapDName>
+    <MapGroup>*</MapGroup>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000013</MPERuleID>
+    <MPERuleRegexID>1000000004</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035991</CommonEventID>
+    <CommonEventName>Watchlist Hit</CommonEventName>
+    <MsgClassID>2900</MsgClassID>
+    <Name>Watchlist Hit : Signed Binary</Name>
+    <FullName>Watchlist Hit : Signed Binary</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=signed</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T00:54:24.91-04:00</DateUpdated>
+    <SortOrder>2</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapDName>*</MapDName>
+    <MapGroup>*</MapGroup>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERuleRegex>
+    <MPERuleRegexID>1000000004</MPERuleRegexID>
+    <RegexTagged>^(?&gt;[^&lt;]+)&lt;(?&gt;[^:]+):[^&gt;]+&gt;(?&gt;[^\|]+\|){4}watchlist.hit.binary\|(.*?digsig_(publisher|issuer)=(?&lt;subject&gt;[^\t]+)\t)?(.*?digsig_result=(?&lt;tag1&gt;Signed|Unsigned))?.*?endpoint=(\[")?(?&lt;dname&gt;[^\t"\|]+)(\|\d+"\])?.*?file_desc=[^\t]+\tfile_version=(?&lt;version&gt;[^\t]+)\tgroup=(\[")?(?&lt;group&gt;[^\t"]+)("\])?.*?md5=(?&lt;object&gt;[^\t]+)\tobserved_filename=(\[")?(?&lt;parentprocesspath&gt;[^[\t,"]+)("\])?.*?original_filename=(?&lt;process&gt;[^\t]+)\t.*?watchlist_name=(?&lt;vmid&gt;[^\t]+)</RegexTagged>
+    <IgnoreCase>1</IgnoreCase>
+    <Multiline>0</Multiline>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T00:59:12.883-04:00</DateUpdated>
+    <PerfMonMode>1</PerfMonMode>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+  </MPERuleRegex>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1</MsgSourceTypeID>
+    <MPERuleRegexID>1000000004</MPERuleRegexID>
+    <SortOrder>4</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000000001</MsgSourceTypeID>
+    <MPERuleRegexID>1000000004</MPERuleRegexID>
+    <SortOrder>1</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <CommonEvent>
+    <CommonEventID>1035991</CommonEventID>
+    <MsgClassID>2900</MsgClassID>
+    <Name>Watchlist Hit</Name>
+    <ShortDesc />
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2015-09-28T11:46:49.81-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <MsgSourceType>
+    <MsgSourceTypeID>1</MsgSourceTypeID>
+    <Name>System</Name>
+    <FullName>System</FullName>
+    <Abbreviation>System</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <IsMst>0</IsMst>
+    <DateUpdated>2011-07-18T17:04:06.947-04:00</DateUpdated>
+    <MsgSourceFormat>0</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000000001</MsgSourceTypeID>
+    <Name>ECHO - Carbon Black Response</Name>
+    <FullName>ECHO - Carbon Black Response</FullName>
+    <Abbreviation>Carbon Black Respons</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-03-16T00:53:26.067-04:00</DateUpdated>
+    <MsgSourceFormat>3</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+</RuleDataset>

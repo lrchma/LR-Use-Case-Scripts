@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes"?>
+<RuleDataset>
+  <ExportInfo>
+    <ExportConsoleVersion>7.3.0.0</ExportConsoleVersion>
+    <KBVersion>7.1.382.0</KBVersion>
+    <DateExported>2017-05-19T09:36:21.265839-04:00</DateExported>
+    <ExportLicense>646</ExportLicense>
+    <ExportUser>logrhythmadmin</ExportUser>
+  </ExportInfo>
+  <MPERule>
+    <MPERuleID>1000003215</MPERuleID>
+    <MPERuleRegexID>1000000018</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1028050</CommonEventID>
+    <CommonEventName>Network Connection Established</CommonEventName>
+    <MsgClassID>3520</MsgClassID>
+    <Name>EVID 3 : Network Connection</Name>
+    <FullName>EVID 3 : Network Connection</FullName>
+    <BaseRule>1</BaseRule>
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-01T00:41:57.017-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>-1</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERuleRegex>
+    <MPERuleRegexID>1000000018</MPERuleRegexID>
+    <RegexTagged>^.*?\&lt;eventid\&gt;(?&lt;vmid&gt;3)&lt;/eventid\&gt;.*?&lt;level&gt;(?&lt;severity&gt;.*?)&lt;/level&gt;.*?\r\n.*?\r\n.*?\r\nprocessid:(?&lt;processid&gt;.*?)\r\nimage:\s+(?&lt;object&gt;.*\\)?(?&lt;process&gt;.*?)\r\nuser:((?&lt;domain&gt;.*?)\\)?(?&lt;login&gt;.*?)\r\nprotocol:(?&lt;protname&gt;.*?)\r\n.*?\r\n.*?\r\nsourceip:\s&lt;sip&gt;\r\nsourcehostname:((?&lt;sname&gt;.*?)(\.(?&lt;domain&gt;.*?)?)|(?&lt;sname&gt;.*?))\r\nsourceport:(?&lt;sport&gt;.*?)\r\n.*?\r\n.*?\r\ndestinationip:\s&lt;dip&gt;\r\ndestinationhostname:(?&lt;dname&gt;.*?)\r\ndestinationport:(?&lt;dport&gt;.*?)$</RegexTagged>
+    <IgnoreCase>1</IgnoreCase>
+    <Multiline>1</Multiline>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-05-01T00:41:56.977-04:00</DateUpdated>
+    <PerfMonMode>1</PerfMonMode>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+  </MPERuleRegex>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000000003</MsgSourceTypeID>
+    <MPERuleRegexID>1000000018</MPERuleRegexID>
+    <SortOrder>3</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <CommonEvent>
+    <CommonEventID>1028050</CommonEventID>
+    <MsgClassID>3520</MsgClassID>
+    <Name>Network Connection Established</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2010-05-03T16:34:54.287-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000000003</MsgSourceTypeID>
+    <Name>ECHO - MS Windows Event Logging XML - Sysmon</Name>
+    <FullName>ECHO - MS Windows Event Logging XML - Sysmon</FullName>
+    <Abbreviation>Sysmon</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-03-16T20:59:48.153-04:00</DateUpdated>
+    <MsgSourceFormat>3</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+</RuleDataset>

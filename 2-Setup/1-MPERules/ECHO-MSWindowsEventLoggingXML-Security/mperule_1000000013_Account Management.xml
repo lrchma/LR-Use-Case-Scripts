@@ -1,0 +1,1271 @@
+<?xml version="1.0" standalone="yes"?>
+<RuleDataset>
+  <ExportInfo>
+    <ExportConsoleVersion>7.3.0.0</ExportConsoleVersion>
+    <KBVersion>7.1.382.0</KBVersion>
+    <DateExported>2017-05-19T09:40:27.8827253-04:00</DateExported>
+    <ExportLicense>646</ExportLicense>
+    <ExportUser>logrhythmadmin</ExportUser>
+  </ExportInfo>
+  <MPERule>
+    <MPERuleID>1000000118</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2436</CommonEventID>
+    <CommonEventName>User Account Attribute Modified</CommonEventName>
+    <MsgClassID>1160</MsgClassID>
+    <Name>Account Management</Name>
+    <FullName>Account Management</FullName>
+    <BaseRule>1</BaseRule>
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>1</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.767-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000095</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2436</CommonEventID>
+    <CommonEventName>User Account Attribute Modified</CommonEventName>
+    <MsgClassID>1160</MsgClassID>
+    <Name>EVID 4738 : User Account Changed</Name>
+    <FullName>EVID 4738 : User Account Changed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>1</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.79-04:00</DateUpdated>
+    <SortOrder>7</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4738</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000096</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2453</CommonEventID>
+    <CommonEventName>Password Modified</CommonEventName>
+    <MsgClassID>1160</MsgClassID>
+    <Name>EVID 4724 : Password Change Attempt</Name>
+    <FullName>EVID 4724 : Password Change Attempt</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>1</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.79-04:00</DateUpdated>
+    <SortOrder>4</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4724</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000097</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2453</CommonEventID>
+    <CommonEventName>Password Modified</CommonEventName>
+    <MsgClassID>1160</MsgClassID>
+    <Name>EVID 4723 : Password Change Attempt</Name>
+    <FullName>EVID 4723 : Password Change Attempt</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>1</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.787-04:00</DateUpdated>
+    <SortOrder>14</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4723</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000098</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2456</CommonEventID>
+    <CommonEventName>Account Added To Group</CommonEventName>
+    <MsgClassID>1200</MsgClassID>
+    <Name>EVID 4756 : Account Added To Group</Name>
+    <FullName>EVID 4756 : Account Added To Group</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.787-04:00</DateUpdated>
+    <SortOrder>16</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4756</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000099</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2461</CommonEventID>
+    <CommonEventName>Computer Account Created</CommonEventName>
+    <MsgClassID>1100</MsgClassID>
+    <Name>EVID 4741 : Computer Account Created</Name>
+    <FullName>EVID 4741 : Computer Account Created</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.787-04:00</DateUpdated>
+    <SortOrder>8</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4741</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000100</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2462</CommonEventID>
+    <CommonEventName>Computer Account Attribute Modified</CommonEventName>
+    <MsgClassID>1160</MsgClassID>
+    <Name>EVID 4742 : Computer Account Changed</Name>
+    <FullName>EVID 4742 : Computer Account Changed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>1</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.787-04:00</DateUpdated>
+    <SortOrder>9</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4742</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000101</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2463</CommonEventID>
+    <CommonEventName>Computer Account Deleted</CommonEventName>
+    <MsgClassID>1120</MsgClassID>
+    <Name>EVID 4743 : Computer Account Deleted</Name>
+    <FullName>EVID 4743 : Computer Account Deleted</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.787-04:00</DateUpdated>
+    <SortOrder>10</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4743</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000102</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>6319</CommonEventID>
+    <CommonEventName>User Account Name Modified</CommonEventName>
+    <MsgClassID>1160</MsgClassID>
+    <Name>EVID 4781 : Account Name Changed</Name>
+    <FullName>EVID 4781 : Account Name Changed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>1</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.787-04:00</DateUpdated>
+    <SortOrder>11</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4781</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000103</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1019636</CommonEventID>
+    <CommonEventName>Password Change Attempted</CommonEventName>
+    <MsgClassID>1998</MsgClassID>
+    <Name>EVID 4723 : Failed Password Change Attempt</Name>
+    <FullName>EVID 4723 : Failed Password Change Attempt</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>1</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=failure</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.787-04:00</DateUpdated>
+    <SortOrder>3</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4723</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000104</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1019636</CommonEventID>
+    <CommonEventName>Password Change Attempted</CommonEventName>
+    <MsgClassID>1998</MsgClassID>
+    <Name>EVID 4724 : Failed Password Change Attempt</Name>
+    <FullName>EVID 4724 : Failed Password Change Attempt</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>1</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=failure</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.783-04:00</DateUpdated>
+    <SortOrder>15</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4724</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000105</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1022225</CommonEventID>
+    <CommonEventName>SID History Add Failed</CommonEventName>
+    <MsgClassID>3100</MsgClassID>
+    <Name>EVID 4766 : SID History Add To Accnt Failed</Name>
+    <FullName>EVID 4766 : SID History Add To Accnt Failed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>9</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=failure</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.783-04:00</DateUpdated>
+    <SortOrder>13</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4766</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000106</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034098</CommonEventID>
+    <CommonEventName>Configuration Modified : System</CommonEventName>
+    <MsgClassID>1600</MsgClassID>
+    <Name>EVID 4765 : SID History Added To Accnt</Name>
+    <FullName>EVID 4765 : SID History Added To Accnt</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.783-04:00</DateUpdated>
+    <SortOrder>12</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4765</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000107</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034164</CommonEventID>
+    <CommonEventName>Account Enabled</CommonEventName>
+    <MsgClassID>1200</MsgClassID>
+    <Name>EVID 4722 : User Account Enabled</Name>
+    <FullName>EVID 4722 : User Account Enabled</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.783-04:00</DateUpdated>
+    <SortOrder>2</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4722</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000108</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034165</CommonEventID>
+    <CommonEventName>Account Disabled</CommonEventName>
+    <MsgClassID>1220</MsgClassID>
+    <Name>EVID 4725 : User Account Disabled</Name>
+    <FullName>EVID 4725 : User Account Disabled</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.783-04:00</DateUpdated>
+    <SortOrder>5</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4725</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000109</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2434</CommonEventID>
+    <CommonEventName>User Account Deleted</CommonEventName>
+    <MsgClassID>1120</MsgClassID>
+    <Name>EVID 4726 : User Account Deleted</Name>
+    <FullName>EVID 4726 : User Account Deleted</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.783-04:00</DateUpdated>
+    <SortOrder>6</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4726</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000110</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2435</CommonEventID>
+    <CommonEventName>User Account Created</CommonEventName>
+    <MsgClassID>1100</MsgClassID>
+    <Name>EVID 4720 : User Account Created</Name>
+    <FullName>EVID 4720 : User Account Created</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.783-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4720</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000111</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2458</CommonEventID>
+    <CommonEventName>Group Deleted</CommonEventName>
+    <MsgClassID>1120</MsgClassID>
+    <Name>EVID 4734 : Security Enabled Local Group Deleted</Name>
+    <FullName>EVID 4734 : Security Enabled Local Group Deleted</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.783-04:00</DateUpdated>
+    <SortOrder>23</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4734</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000112</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>14503</CommonEventID>
+    <CommonEventName>Account Unlocked</CommonEventName>
+    <MsgClassID>1200</MsgClassID>
+    <Name>EVID 4767 : User Account Unlocked</Name>
+    <FullName>EVID 4767 : User Account Unlocked</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.78-04:00</DateUpdated>
+    <SortOrder>22</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4767</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000113</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2455</CommonEventID>
+    <CommonEventName>Group Created</CommonEventName>
+    <MsgClassID>1100</MsgClassID>
+    <Name>EVID 4759 : Security Disabled Univ. Group Created</Name>
+    <FullName>EVID 4759 : Security Disabled Univ. Group Created</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.78-04:00</DateUpdated>
+    <SortOrder>21</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4759</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000114</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2455</CommonEventID>
+    <CommonEventName>Group Created</CommonEventName>
+    <MsgClassID>1100</MsgClassID>
+    <Name>EVID 4731 : Security Enabled Local Group Created</Name>
+    <FullName>EVID 4731 : Security Enabled Local Group Created</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.78-04:00</DateUpdated>
+    <SortOrder>20</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4731</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000115</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2455</CommonEventID>
+    <CommonEventName>Group Created</CommonEventName>
+    <MsgClassID>1100</MsgClassID>
+    <Name>EVID 4727 : Security Enabled Global Group Created</Name>
+    <FullName>EVID 4727 : Security Enabled Global Group Created</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>3</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.78-04:00</DateUpdated>
+    <SortOrder>19</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4727</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000116</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032780</CommonEventID>
+    <CommonEventName>Group Attribute Modified</CommonEventName>
+    <MsgClassID>1160</MsgClassID>
+    <Name>EVID 4760 : Security Disabled Group Change</Name>
+    <FullName>EVID 4760 : Security Disabled Group Change</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>1</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.78-04:00</DateUpdated>
+    <SortOrder>18</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4760</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000117</MPERuleID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032780</CommonEventID>
+    <CommonEventName>Group Attribute Modified</CommonEventName>
+    <MsgClassID>1160</MsgClassID>
+    <Name>EVID 4737 : Security Enabled Group Change</Name>
+    <FullName>EVID 4737 : Security Enabled Group Change</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>1</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.78-04:00</DateUpdated>
+    <SortOrder>17</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4737</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERuleRegex>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <RegexTagged>(?&gt;&lt;eventid[^&gt;]*&gt;(?&lt;vmid&gt;4767|4720|4722|4723|4724|4725|4726|4727|4731|4734|4738|4741|4742|4743|4781|4737|4759|4760)&lt;/eventid&gt;\&lt;version\&gt;[^&lt;]+&lt;/version&gt;&lt;level&gt;(?&lt;severity&gt;[^&lt;]+)&lt;/level&gt;)(?:&lt;[^&gt;]+&gt;[^&lt;]*?&lt;[^&gt;]+&gt;){2}&lt;keywords&gt;audit(?&lt;tag1&gt;[^&lt;]+)&lt;/keywords&gt;&lt;[^&gt;]+&gt;&lt;[^&gt;]+&gt;[^&lt;]+&lt;[^&gt;]+&gt;(?:&lt;[^&gt;]+&gt;){2}&lt;[^&gt;]+&gt;[^&lt;]+&lt;[^&gt;]+&gt;&lt;[^&gt;]+&gt;(?&lt;dname&gt;[^&lt;]+)&lt;(?:[^']+'oldtargetusername'&gt;(?&lt;object&gt;[^&lt;]+)&lt;)?(?:[^']+'){1,3}(New)?targetusername'&gt;(?&lt;account&gt;[^&lt;]+)&lt;[^']+'targetdomainname'&gt;(?&lt;domain&gt;[^&lt;]+)&lt;(?:[^']+'[^']+'){2}[^']+'subjectusername'&gt;(?&lt;login&gt;[^&lt;]+)&lt;[^']+'[^']+'[^']+'subjectlogonid'&gt;(?&lt;session&gt;[^&lt;]+)&lt;</RegexTagged>
+    <IgnoreCase>1</IgnoreCase>
+    <Multiline>1</Multiline>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:30:41.74-04:00</DateUpdated>
+    <PerfMonMode>0</PerfMonMode>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+  </MPERuleRegex>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000639</MsgSourceTypeID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <SortOrder>34</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000669</MsgSourceTypeID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <SortOrder>31</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000000006</MsgSourceTypeID>
+    <MPERuleRegexID>1000000013</MPERuleRegexID>
+    <SortOrder>5</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <CommonEvent>
+    <CommonEventID>2434</CommonEventID>
+    <MsgClassID>1120</MsgClassID>
+    <Name>User Account Deleted</Name>
+    <ShortDesc>A user account was deleted.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2008-07-24T18:09:51.877-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>2435</CommonEventID>
+    <MsgClassID>1100</MsgClassID>
+    <Name>User Account Created</Name>
+    <ShortDesc>A user account was created.</ShortDesc>
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2008-07-24T18:04:23.68-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>2436</CommonEventID>
+    <MsgClassID>1160</MsgClassID>
+    <Name>User Account Attribute Modified</Name>
+    <ShortDesc>A user accounts properties were modified.</ShortDesc>
+    <DefRiskRating>1</DefRiskRating>
+    <DateUpdated>2011-07-13T15:10:59.79-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>2453</CommonEventID>
+    <MsgClassID>1160</MsgClassID>
+    <Name>Password Modified</Name>
+    <ShortDesc />
+    <DefRiskRating>1</DefRiskRating>
+    <DateUpdated>2011-07-13T15:26:01.43-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>2455</CommonEventID>
+    <MsgClassID>1100</MsgClassID>
+    <Name>Group Created</Name>
+    <ShortDesc />
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2008-10-28T10:42:55.393-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>2456</CommonEventID>
+    <MsgClassID>1200</MsgClassID>
+    <Name>Account Added To Group</Name>
+    <ShortDesc />
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2011-11-03T12:52:55.127-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>2458</CommonEventID>
+    <MsgClassID>1120</MsgClassID>
+    <Name>Group Deleted</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2007-06-28T16:48:54.103-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>2461</CommonEventID>
+    <MsgClassID>1100</MsgClassID>
+    <Name>Computer Account Created</Name>
+    <ShortDesc>A computer account was created.</ShortDesc>
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2007-06-28T16:49:12.24-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>2462</CommonEventID>
+    <MsgClassID>1160</MsgClassID>
+    <Name>Computer Account Attribute Modified</Name>
+    <ShortDesc>A computer account's properties were modified.</ShortDesc>
+    <DefRiskRating>1</DefRiskRating>
+    <DateUpdated>2011-07-13T15:12:46.42-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>2463</CommonEventID>
+    <MsgClassID>1120</MsgClassID>
+    <Name>Computer Account Deleted</Name>
+    <ShortDesc>A computer account was deleted.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2007-06-28T16:48:54.087-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>6319</CommonEventID>
+    <MsgClassID>1160</MsgClassID>
+    <Name>User Account Name Modified</Name>
+    <ShortDesc />
+    <DefRiskRating>1</DefRiskRating>
+    <DateUpdated>2011-07-13T15:10:25.673-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>14503</CommonEventID>
+    <MsgClassID>1200</MsgClassID>
+    <Name>Account Unlocked</Name>
+    <ShortDesc />
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2011-11-03T12:56:50.413-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1019636</CommonEventID>
+    <MsgClassID>1998</MsgClassID>
+    <Name>Password Change Attempted</Name>
+    <ShortDesc />
+    <DefRiskRating>1</DefRiskRating>
+    <DateUpdated>2009-04-07T19:39:49.053-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1022225</CommonEventID>
+    <MsgClassID>3100</MsgClassID>
+    <Name>SID History Add Failed</Name>
+    <ShortDesc />
+    <DefRiskRating>9</DefRiskRating>
+    <DateUpdated>2009-06-19T17:25:00.853-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032780</CommonEventID>
+    <MsgClassID>1160</MsgClassID>
+    <Name>Group Attribute Modified</Name>
+    <ShortDesc />
+    <DefRiskRating>1</DefRiskRating>
+    <DateUpdated>2011-07-13T15:20:03.983-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034098</CommonEventID>
+    <MsgClassID>1600</MsgClassID>
+    <Name>Configuration Modified : System</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2011-11-03T13:43:12.95-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034164</CommonEventID>
+    <MsgClassID>1200</MsgClassID>
+    <Name>Account Enabled</Name>
+    <ShortDesc />
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2011-11-18T13:04:12.823-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034165</CommonEventID>
+    <MsgClassID>1220</MsgClassID>
+    <Name>Account Disabled</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2011-11-09T16:09:19.557-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000639</MsgSourceTypeID>
+    <Name>MS Windows Event Logging XML - Security</Name>
+    <FullName>MS Windows Event Logging XML - Security</FullName>
+    <Abbreviation>WinEvtXML - Security</Abbreviation>
+    <ShortDesc>Slim format Windows Event Logs</ShortDesc>
+    <LongDesc />
+    <ParentMsgSourceTypeID>1</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-02-13T21:24:07.91-05:00</DateUpdated>
+    <MsgSourceFormat>28</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000669</MsgSourceTypeID>
+    <Name>Syslog - MS Windows Event Logging XML - Security</Name>
+    <FullName>Syslog - MS Windows Event Logging XML - Security</FullName>
+    <Abbreviation>Syslog - MSEVTSecXML</Abbreviation>
+    <ShortDesc>For Splunk forwarded log data</ShortDesc>
+    <LongDesc />
+    <ParentMsgSourceTypeID>1</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-02-13T21:24:22.467-05:00</DateUpdated>
+    <MsgSourceFormat>1</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000000006</MsgSourceTypeID>
+    <Name>ECHO - MS Windows Event Logging XML - Security</Name>
+    <FullName>ECHO - MS Windows Event Logging XML - Security</FullName>
+    <Abbreviation>WinEvtXML - Security</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-03-16T22:29:59.25-04:00</DateUpdated>
+    <MsgSourceFormat>3</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+</RuleDataset>

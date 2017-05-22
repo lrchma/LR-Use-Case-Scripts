@@ -1,0 +1,1129 @@
+<?xml version="1.0" standalone="yes"?>
+<RuleDataset>
+  <ExportInfo>
+    <ExportConsoleVersion>7.3.0.0</ExportConsoleVersion>
+    <KBVersion>7.1.382.0</KBVersion>
+    <DateExported>2017-05-19T09:32:12.7114509-04:00</DateExported>
+    <ExportLicense>646</ExportLicense>
+    <ExportUser>logrhythmadmin</ExportUser>
+  </ExportInfo>
+  <MPERule>
+    <MPERuleID>1000000093</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2428</CommonEventID>
+    <CommonEventName>General Information</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>User Tasks</Name>
+    <FullName>User Tasks</FullName>
+    <BaseRule>1</BaseRule>
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T01:52:09.153-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000070</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10404</CommonEventID>
+    <CommonEventName>Process/Service Started</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 107 : Task Launched Due To Time Trigger</Name>
+    <FullName>EVID 107 : Task Launched Due To Time Trigger</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>0</RecordStatus>
+    <DateUpdated>2017-03-23T01:52:09.157-04:00</DateUpdated>
+    <SortOrder>1000000000</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=107</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000071</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10404</CommonEventID>
+    <CommonEventName>Process/Service Started</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 118 : Task Launched Due To System Startup</Name>
+    <FullName>EVID 118 : Task Launched Due To System Startup</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>0</RecordStatus>
+    <DateUpdated>2017-03-23T01:52:09.157-04:00</DateUpdated>
+    <SortOrder>1000000000</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=118</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000072</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10404</CommonEventID>
+    <CommonEventName>Process/Service Started</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 119 : Task Launched Due To User Logon</Name>
+    <FullName>EVID 119 : Task Launched Due To User Logon</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>0</RecordStatus>
+    <DateUpdated>2017-03-23T01:52:09.157-04:00</DateUpdated>
+    <SortOrder>1000000000</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=119</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000073</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10404</CommonEventID>
+    <CommonEventName>Process/Service Started</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 129 : Created Task Process</Name>
+    <FullName>EVID 129 : Created Task Process</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>0</RecordStatus>
+    <DateUpdated>2017-03-23T01:52:09.157-04:00</DateUpdated>
+    <SortOrder>1000000000</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=129</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000074</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10404</CommonEventID>
+    <CommonEventName>Process/Service Started</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 200 : Action Started</Name>
+    <FullName>EVID 200 : Action Started</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>0</RecordStatus>
+    <DateUpdated>2017-03-23T01:52:09.16-04:00</DateUpdated>
+    <SortOrder>1000000000</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=200</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000075</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1023779</CommonEventID>
+    <CommonEventName>Scheduled Task Completed</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>EVID 201 : Action Completed Successfully</Name>
+    <FullName>EVID 201 : Action Completed Successfully</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>0</RecordStatus>
+    <DateUpdated>2017-03-23T01:52:09.16-04:00</DateUpdated>
+    <SortOrder>1000000000</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=201</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000076</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034560</CommonEventID>
+    <CommonEventName>Request Received</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>EVID 319 : Task Launch Request Received</Name>
+    <FullName>EVID 319 : Task Launch Request Received</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>0</RecordStatus>
+    <DateUpdated>2017-03-23T01:52:09.16-04:00</DateUpdated>
+    <SortOrder>1000000000</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=319</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000077</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10410</CommonEventID>
+    <CommonEventName>Object Modified</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>EVID 140 : User Updated Scheduled Task</Name>
+    <FullName>EVID 140 : User Updated Scheduled Task</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.977-04:00</DateUpdated>
+    <SortOrder>7</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=140</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000078</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10404</CommonEventID>
+    <CommonEventName>Process/Service Started</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 100 : Task Started For User</Name>
+    <FullName>EVID 100 : Task Started For User</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.977-04:00</DateUpdated>
+    <SortOrder>8</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=100</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000079</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>14889</CommonEventID>
+    <CommonEventName>Process/Service Stopped</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 102 : Task Finished For User</Name>
+    <FullName>EVID 102 : Task Finished For User</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.977-04:00</DateUpdated>
+    <SortOrder>9</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=102</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000080</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10404</CommonEventID>
+    <CommonEventName>Process/Service Started</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 119 : Task Launched Due To Logon</Name>
+    <FullName>EVID 119 : Task Launched Due To Logon</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.977-04:00</DateUpdated>
+    <SortOrder>10</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=119</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000081</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>14889</CommonEventID>
+    <CommonEventName>Process/Service Stopped</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 330 : Task Stopped On Request</Name>
+    <FullName>EVID 330 : Task Stopped On Request</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.977-04:00</DateUpdated>
+    <SortOrder>22</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=330</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000082</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>14889</CommonEventID>
+    <CommonEventName>Process/Service Stopped</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 111 : Task Terminated</Name>
+    <FullName>EVID 111 : Task Terminated</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.973-04:00</DateUpdated>
+    <SortOrder>21</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=111</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000083</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1029888</CommonEventID>
+    <CommonEventName>Job Started</CommonEventName>
+    <MsgClassID>1140</MsgClassID>
+    <Name>EVID 110 : Task Run Event</Name>
+    <FullName>EVID 110 : Task Run Event</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.973-04:00</DateUpdated>
+    <SortOrder>20</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=110</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000084</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10404</CommonEventID>
+    <CommonEventName>Process/Service Started</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 118 : Task Launched Due To System Startup</Name>
+    <FullName>EVID 118 : Task Launched Due To System Startup</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.97-04:00</DateUpdated>
+    <SortOrder>19</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=118</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000085</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034560</CommonEventID>
+    <CommonEventName>Request Received</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>EVID 319 : Task Launch Request Received</Name>
+    <FullName>EVID 319 : Task Launch Request Received</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.97-04:00</DateUpdated>
+    <SortOrder>18</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=319</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000086</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1023779</CommonEventID>
+    <CommonEventName>Scheduled Task Completed</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>EVID 201 : Action Completed Successfully</Name>
+    <FullName>EVID 201 : Action Completed Successfully</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.97-04:00</DateUpdated>
+    <SortOrder>17</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=201</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000087</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10404</CommonEventID>
+    <CommonEventName>Process/Service Started</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 200 : Action Started</Name>
+    <FullName>EVID 200 : Action Started</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.97-04:00</DateUpdated>
+    <SortOrder>16</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=200</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000088</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034110</CommonEventID>
+    <CommonEventName>Configuration Disabled : System</CommonEventName>
+    <MsgClassID>1600</MsgClassID>
+    <Name>EVID 142 : Scheduled Task Disabled</Name>
+    <FullName>EVID 142 : Scheduled Task Disabled</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.967-04:00</DateUpdated>
+    <SortOrder>15</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=142</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000089</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10404</CommonEventID>
+    <CommonEventName>Process/Service Started</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 129 : Created Task Process</Name>
+    <FullName>EVID 129 : Created Task Process</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.967-04:00</DateUpdated>
+    <SortOrder>14</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=129</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000090</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10404</CommonEventID>
+    <CommonEventName>Process/Service Started</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 107 : Task Launched Due To Time Trigger</Name>
+    <FullName>EVID 107 : Task Launched Due To Time Trigger</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.967-04:00</DateUpdated>
+    <SortOrder>13</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=107</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000091</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1031441</CommonEventID>
+    <CommonEventName>Task Created</CommonEventName>
+    <MsgClassID>1999</MsgClassID>
+    <Name>EVID 106 : Scheduled Task Created</Name>
+    <FullName>EVID 106 : Scheduled Task Created</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.967-04:00</DateUpdated>
+    <SortOrder>12</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=106</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000092</MPERuleID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032397</CommonEventID>
+    <CommonEventName>Object Deleted/Removed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>EVID 141 : User Deleted Scheduled Task</Name>
+    <FullName>EVID 141 : User Deleted Scheduled Task</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T23:13:36.963-04:00</DateUpdated>
+    <SortOrder>11</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=141</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERuleRegex>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <RegexTagged>(?=.*?(action|task)name)^.*?Microsoft-Windows-TaskScheduler.*?\&lt;EventID( Qualifiers='\d+')?\&gt;(?&lt;vmid&gt;\d+)\&lt;/EventID\&gt;.*?\&lt;Level\&gt;(?&lt;tag1&gt;(?&lt;severity&gt;\w+))\&lt;/Level\&gt;.*?\&lt;Computer\&gt;(?&lt;dname&gt;[^\&lt;]+)\&lt;/Computer\&gt;.*?userid='((?&lt;domain&gt;.*?)\\)?(?&lt;login&gt;.*?)'.*?&lt;Data Name='(action|Task)Name'&gt;(?&lt;object&gt;[^&lt;&gt;]+)(.*?'(Task)?InstanceId'&gt;\{(?&lt;session&gt;.*?)\})?&lt;/Data&gt;(&lt;Data Name='User(Name|Context)'&gt;((?&lt;domain&gt;.*?)\\)?(?&lt;login&gt;.*?)&lt;)?(&lt;Data Name='Path'&gt;(?&lt;process&gt;.*?)&lt;)?(.*?'(Task)?InstanceId'&gt;\{(?&lt;session&gt;.*?)\})?</RegexTagged>
+    <IgnoreCase>1</IgnoreCase>
+    <Multiline>0</Multiline>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T01:52:09.1-04:00</DateUpdated>
+    <PerfMonMode>1</PerfMonMode>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+  </MPERuleRegex>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000000007</MsgSourceTypeID>
+    <MPERuleRegexID>1000000011</MPERuleRegexID>
+    <SortOrder>1</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <CommonEvent>
+    <CommonEventID>2428</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>General Information</Name>
+    <ShortDesc>A general information message has been generated.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2007-06-28T11:05:39.057-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>10404</CommonEventID>
+    <MsgClassID>1400</MsgClassID>
+    <Name>Process/Service Started</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2011-11-03T13:32:24.563-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>10410</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Modified</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2007-02-05T01:04:04.357-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>14889</CommonEventID>
+    <MsgClassID>1400</MsgClassID>
+    <Name>Process/Service Stopped</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2011-11-03T13:33:14.067-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1023779</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Scheduled Task Completed</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2009-09-28T23:50:15.08-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1029888</CommonEventID>
+    <MsgClassID>1140</MsgClassID>
+    <Name>Job Started</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2010-09-28T19:39:20.027-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1031441</CommonEventID>
+    <MsgClassID>1999</MsgClassID>
+    <Name>Task Created</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2011-03-09T11:37:42.497-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032397</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Deleted/Removed</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2011-06-23T18:11:07.263-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034110</CommonEventID>
+    <MsgClassID>1600</MsgClassID>
+    <Name>Configuration Disabled : System</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2011-11-03T13:47:02.737-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034560</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Request Received</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2012-05-10T14:02:35.103-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000000007</MsgSourceTypeID>
+    <Name>ECHO - MS Windows Event Logging - Task Scheduler</Name>
+    <FullName>ECHO - MS Windows Event Logging - Task Scheduler</FullName>
+    <Abbreviation>MS Task Scheduler</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-03-22T23:11:30.543-04:00</DateUpdated>
+    <MsgSourceFormat>3</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+</RuleDataset>

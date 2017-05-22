@@ -1,0 +1,2 @@
+bcdedit.exe
+vssadmin.exe

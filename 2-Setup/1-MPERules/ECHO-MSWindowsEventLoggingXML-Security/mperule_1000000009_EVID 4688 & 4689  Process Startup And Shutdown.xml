@@ -1,0 +1,196 @@
+<?xml version="1.0" standalone="yes"?>
+<RuleDataset>
+  <ExportInfo>
+    <ExportConsoleVersion>7.3.0.0</ExportConsoleVersion>
+    <KBVersion>7.1.382.0</KBVersion>
+    <DateExported>2017-05-19T09:40:06.0324573-04:00</DateExported>
+    <ExportLicense>646</ExportLicense>
+    <ExportUser>logrhythmadmin</ExportUser>
+  </ExportInfo>
+  <MPERule>
+    <MPERuleID>1000000045</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10404</CommonEventID>
+    <CommonEventName>Process/Service Started</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 4688 &amp; 4689 : Process Startup And Shutdown</Name>
+    <FullName>EVID 4688 &amp; 4689 : Process Startup And Shutdown</FullName>
+    <BaseRule>1</BaseRule>
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T01:58:34.297-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000043</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>14889</CommonEventID>
+    <CommonEventName>Process/Service Stopped</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 4689 : Process Exited</Name>
+    <FullName>EVID 4689 : Process Exited</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <MapTag2>*</MapTag2>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T22:30:51.55-04:00</DateUpdated>
+    <SortOrder>2</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4689</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000044</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10404</CommonEventID>
+    <CommonEventName>Process/Service Started</CommonEventName>
+    <MsgClassID>1400</MsgClassID>
+    <Name>EVID 4688 : New Process Created</Name>
+    <FullName>EVID 4688 : New Process Created</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <MapTag2>*</MapTag2>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-22T22:30:51.547-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4688</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERuleRegex>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RegexTagged>(?&gt;&lt;eventid[^&gt;]*&gt;(?&lt;vmid&gt;468[89])&lt;/eventid&gt;\&lt;version\&gt;[^&lt;]+&lt;/version&gt;&lt;level&gt;(?&lt;severity&gt;[^&lt;]+)&lt;/level&gt;)(?:&lt;[^&gt;]+&gt;[^&lt;]*?&lt;[^&gt;]+&gt;){2}&lt;keywords&gt;(?&lt;command&gt;[^&lt;]+)&lt;/keywords&gt;&lt;[^&gt;]+&gt;&lt;[^&gt;]+&gt;[^&lt;]+&lt;[^&gt;]+&gt;(?:&lt;[^&gt;]+&gt;){2}&lt;[^&gt;]+&gt;[^&lt;]+&lt;[^&gt;]+&gt;&lt;[^&gt;]+&gt;(?&lt;dname&gt;[^&lt;]+)&lt;[^']+'[^']+'&gt;[^&lt;]+&lt;[^']+'subjectusername'&gt;(?&lt;login&gt;[^&lt;]+)&lt;[^']+'subjectdomainname'&gt;(?&lt;domain&gt;[^&lt;]+)&lt;[^']+'subjectlogonid'&gt;(?&lt;session&gt;[^&lt;]+)&lt;(?:[^']+'[^']+'){0,1}[^']+'(?:new)?processid'&gt;(?&lt;processid&gt;[^&lt;]+)&lt;[^']+'(?:new)?processname'&gt;(?&lt;process&gt;[^&gt;]+)&lt;/Data&gt;.*?'CommandLine'&gt;(?&lt;subject&gt;[^&lt;]+)&lt;/Data&gt;</RegexTagged>
+    <IgnoreCase>1</IgnoreCase>
+    <Multiline>1</Multiline>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T01:58:34.277-04:00</DateUpdated>
+    <PerfMonMode>0</PerfMonMode>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+  </MPERuleRegex>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000669</MsgSourceTypeID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <SortOrder>29</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000000006</MsgSourceTypeID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <SortOrder>2</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <CommonEvent>
+    <CommonEventID>10404</CommonEventID>
+    <MsgClassID>1400</MsgClassID>
+    <Name>Process/Service Started</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2011-11-03T13:32:24.563-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>14889</CommonEventID>
+    <MsgClassID>1400</MsgClassID>
+    <Name>Process/Service Stopped</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2011-11-03T13:33:14.067-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000669</MsgSourceTypeID>
+    <Name>Syslog - MS Windows Event Logging XML - Security</Name>
+    <FullName>Syslog - MS Windows Event Logging XML - Security</FullName>
+    <Abbreviation>Syslog - MSEVTSecXML</Abbreviation>
+    <ShortDesc>For Splunk forwarded log data</ShortDesc>
+    <LongDesc />
+    <ParentMsgSourceTypeID>1</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-02-13T21:24:22.467-05:00</DateUpdated>
+    <MsgSourceFormat>1</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000000006</MsgSourceTypeID>
+    <Name>ECHO - MS Windows Event Logging XML - Security</Name>
+    <FullName>ECHO - MS Windows Event Logging XML - Security</FullName>
+    <Abbreviation>WinEvtXML - Security</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-03-16T22:29:59.25-04:00</DateUpdated>
+    <MsgSourceFormat>3</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+</RuleDataset>

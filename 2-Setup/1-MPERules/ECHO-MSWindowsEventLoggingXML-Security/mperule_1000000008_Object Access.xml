@@ -1,0 +1,860 @@
+<?xml version="1.0" standalone="yes"?>
+<RuleDataset>
+  <ExportInfo>
+    <ExportConsoleVersion>7.3.0.0</ExportConsoleVersion>
+    <KBVersion>7.1.382.0</KBVersion>
+    <DateExported>2017-05-19T09:40:19.7393654-04:00</DateExported>
+    <ExportLicense>646</ExportLicense>
+    <ExportUser>logrhythmadmin</ExportUser>
+  </ExportInfo>
+  <MPERule>
+    <MPERuleID>1000000042</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1021382</CommonEventID>
+    <CommonEventName>Object Accessed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Access</Name>
+    <FullName>Object Access</FullName>
+    <BaseRule>1</BaseRule>
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:18:57.347-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000027</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1029892</CommonEventID>
+    <CommonEventName>Object Read</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>EVID 4656 : Object Opened</Name>
+    <FullName>EVID 4656 : Object Opened</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T22:30:51.323-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4656</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000028</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032443</CommonEventID>
+    <CommonEventName>Access Object Failure</CommonEventName>
+    <MsgClassID>1080</MsgClassID>
+    <Name>EVID 4656 : Object Open Failed</Name>
+    <FullName>EVID 4656 : Object Open Failed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>1</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=failure</MapTag1>
+    <MapTag2>*</MapTag2>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T22:30:51.323-04:00</DateUpdated>
+    <SortOrder>2</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4656</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000029</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10410</CommonEventID>
+    <CommonEventName>Object Modified</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>EVID 4657 : Registry Value Modified</Name>
+    <FullName>EVID 4657 : Registry Value Modified</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T22:30:51.323-04:00</DateUpdated>
+    <SortOrder>3</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4657</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000030</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1019775</CommonEventID>
+    <CommonEventName>Object Handle Closed</CommonEventName>
+    <MsgClassID>1140</MsgClassID>
+    <Name>EVID 4658 : Handle To An Object Closed</Name>
+    <FullName>EVID 4658 : Handle To An Object Closed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T22:30:51.32-04:00</DateUpdated>
+    <SortOrder>4</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4658</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000031</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032397</CommonEventID>
+    <CommonEventName>Object Deleted/Removed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>EVID 4660 : Object Deleted</Name>
+    <FullName>EVID 4660 : Object Deleted</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T22:30:51.32-04:00</DateUpdated>
+    <SortOrder>5</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4660</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000032</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1001069</CommonEventID>
+    <CommonEventName>Command Executed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>EVID 4662 : Operation Performed On Object</Name>
+    <FullName>EVID 4662 : Operation Performed On Object</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T22:30:51.32-04:00</DateUpdated>
+    <SortOrder>6</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4662</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000033</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1021382</CommonEventID>
+    <CommonEventName>Object Accessed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>EVID 4663 : Attempt Made To Access Object</Name>
+    <FullName>EVID 4663 : Attempt Made To Access Object</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T22:30:51.32-04:00</DateUpdated>
+    <SortOrder>7</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4663</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000034</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034135</CommonEventID>
+    <CommonEventName>Policy Modified : Object</CommonEventName>
+    <MsgClassID>1500</MsgClassID>
+    <Name>EVID 4670 : Permissions On Object Changed</Name>
+    <FullName>EVID 4670 : Permissions On Object Changed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T22:30:51.32-04:00</DateUpdated>
+    <SortOrder>8</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4670</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000035</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1019747</CommonEventID>
+    <CommonEventName>Transaction State Change</CommonEventName>
+    <MsgClassID>3520</MsgClassID>
+    <Name>EVID 4685 : State Of Transaction Changed</Name>
+    <FullName>EVID 4685 : State Of Transaction Changed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T22:30:51.32-04:00</DateUpdated>
+    <SortOrder>9</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4685</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000036</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1019747</CommonEventID>
+    <CommonEventName>Transaction State Change</CommonEventName>
+    <MsgClassID>3520</MsgClassID>
+    <Name>EVID 4985 : State Of Transaction Changed</Name>
+    <FullName>EVID 4985 : State Of Transaction Changed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T22:30:51.317-04:00</DateUpdated>
+    <SortOrder>10</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4985</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000037</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1019776</CommonEventID>
+    <CommonEventName>Object Handle Requested</CommonEventName>
+    <MsgClassID>1140</MsgClassID>
+    <Name>EVID 4661 : Handle To An Object Was Requested</Name>
+    <FullName>EVID 4661 : Handle To An Object Was Requested</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <MapTag4>*</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T22:30:51.317-04:00</DateUpdated>
+    <SortOrder>11</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4661</MapVMID>
+    <MapDName>*</MapDName>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000038</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>8760</CommonEventID>
+    <CommonEventName>Handle Duplicated</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>EVID 4690 : Attempt Made To Duplicate Obj Handle</Name>
+    <FullName>EVID 4690 : Attempt Made To Duplicate Obj Handle</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T22:30:51.317-04:00</DateUpdated>
+    <SortOrder>12</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4690</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000039</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1021382</CommonEventID>
+    <CommonEventName>Object Accessed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>EVID 4691 : Indirect Access To An Object Requested</Name>
+    <FullName>EVID 4691 : Indirect Access To An Object Requested</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=success</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T22:30:51.317-04:00</DateUpdated>
+    <SortOrder>13</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4691</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000040</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1019775</CommonEventID>
+    <CommonEventName>Object Handle Closed</CommonEventName>
+    <MsgClassID>1140</MsgClassID>
+    <Name>EVID 4658 : Handle To An Object Closed</Name>
+    <FullName>EVID 4658 : Handle To An Object Closed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1 />
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <MapTag4>*</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T22:30:51.313-04:00</DateUpdated>
+    <SortOrder>14</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4658</MapVMID>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000041</MPERuleID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032443</CommonEventID>
+    <CommonEventName>Access Object Failure</CommonEventName>
+    <MsgClassID>1080</MsgClassID>
+    <Name>EVID 4662 : Operation Performed On Object Failed</Name>
+    <FullName>EVID 4662 : Operation Performed On Object Failed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>16</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>1</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=failure</MapTag1>
+    <MapTag2>*</MapTag2>
+    <MapTag3>*</MapTag3>
+    <MapTag4>*</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-16T22:30:51.313-04:00</DateUpdated>
+    <SortOrder>15</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=4662</MapVMID>
+    <MapDName>*</MapDName>
+    <MapAccount>*</MapAccount>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERuleRegex>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <RegexTagged>(?&gt;&lt;eventid&gt;(?&lt;vmid&gt;46(56|57|58|60|61|62|63|70|85|90|91)|4985)&lt;/eventid&gt;\&lt;version\&gt;[^&lt;]+&lt;/version&gt;&lt;level&gt;(?&lt;severity&gt;[^&lt;]+)&lt;/level&gt;&lt;task&gt;(?&lt;subject&gt;[^&lt;]+)&lt;/task&gt;&lt;[^&gt;]+&gt;[^&lt;]*?&lt;[^&gt;]+&gt;&lt;[^&gt;]+&gt;(audit\s+(?&lt;tag1&gt;success|failure)|(?&lt;tag1&gt;[^&lt;]+))&lt;[^&gt;]+&gt;)&lt;[^&gt;]+&gt;&lt;[^&gt;]+&gt;[^&lt;]+&lt;[^&gt;]+&gt;(?:&lt;[^&gt;]+&gt;){2}&lt;[^&gt;]+&gt;[^&lt;]+&lt;[^&gt;]+&gt;&lt;[^&gt;]+&gt;(?&lt;dname&gt;[^&lt;]+)&lt;[^']+'[^']+'&gt;[^&lt;]+&lt;[^']+'subjectusername'&gt;(?&lt;login&gt;[^&lt;]+)&lt;[^']+'subjectdomainname'&gt;(?&lt;domain&gt;[^&lt;]+)&lt;[^']+'subjectlogonid'&gt;(?&lt;session&gt;[^&lt;]+)&lt;[^']+'[^']+'([^']+'(handleid|objecttype)'&gt;(?&lt;object&gt;[^&lt;]+)&lt;([^']+'objectname'&gt;(-|(?&lt;objectname&gt;[^&lt;]+))&lt;)?)?(?s)(.*?processid'&gt;(?&lt;processid&gt;[^&lt;]+)&lt;([^']+'processname'&gt;(?&lt;process&gt;[^&lt;]+)&lt;)?)?</RegexTagged>
+    <IgnoreCase>1</IgnoreCase>
+    <Multiline>1</Multiline>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:18:57.353-04:00</DateUpdated>
+    <PerfMonMode>0</PerfMonMode>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+  </MPERuleRegex>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000030</MsgSourceTypeID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <SortOrder>84</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000000006</MsgSourceTypeID>
+    <MPERuleRegexID>1000000008</MPERuleRegexID>
+    <SortOrder>4</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <CommonEvent>
+    <CommonEventID>8760</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Handle Duplicated</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2006-08-10T17:32:20.35-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>10410</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Modified</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2007-02-05T01:04:04.357-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1001069</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Command Executed</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2008-09-18T16:11:09.013-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1019747</CommonEventID>
+    <MsgClassID>3520</MsgClassID>
+    <Name>Transaction State Change</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2009-04-07T19:39:49.57-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1019775</CommonEventID>
+    <MsgClassID>1140</MsgClassID>
+    <Name>Object Handle Closed</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2009-04-07T19:39:49.68-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1019776</CommonEventID>
+    <MsgClassID>1140</MsgClassID>
+    <Name>Object Handle Requested</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2009-04-07T19:39:49.697-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1021382</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Accessed</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2009-06-02T12:54:03.283-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1029892</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Read</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2010-09-29T12:25:09.35-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032397</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Deleted/Removed</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2011-06-23T18:11:07.263-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032443</CommonEventID>
+    <MsgClassID>1080</MsgClassID>
+    <Name>Access Object Failure</Name>
+    <ShortDesc />
+    <DefRiskRating>1</DefRiskRating>
+    <DateUpdated>2011-06-28T12:57:45.82-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034135</CommonEventID>
+    <MsgClassID>1500</MsgClassID>
+    <Name>Policy Modified : Object</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2011-11-03T13:58:51.99-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000030</MsgSourceTypeID>
+    <Name>MS Windows Event Logging - Security</Name>
+    <FullName>MS Windows Event Logging - Security</FullName>
+    <Abbreviation>MS Security Log</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-02-13T21:02:09.07-05:00</DateUpdated>
+    <MsgSourceFormat>10</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000000006</MsgSourceTypeID>
+    <Name>ECHO - MS Windows Event Logging XML - Security</Name>
+    <FullName>ECHO - MS Windows Event Logging XML - Security</FullName>
+    <Abbreviation>WinEvtXML - Security</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-03-16T22:29:59.25-04:00</DateUpdated>
+    <MsgSourceFormat>3</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+</RuleDataset>

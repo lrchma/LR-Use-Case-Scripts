@@ -1,0 +1,479 @@
+<?xml version="1.0" standalone="yes"?>
+<RuleDataset>
+  <ExportInfo>
+    <ExportConsoleVersion>7.3.0.0</ExportConsoleVersion>
+    <KBVersion>7.1.382.0</KBVersion>
+    <DateExported>2017-05-19T09:40:33.6192521-04:00</DateExported>
+    <ExportLicense>646</ExportLicense>
+    <ExportUser>logrhythmadmin</ExportUser>
+  </ExportInfo>
+  <MPERule>
+    <MPERuleID>1000000132</MPERuleID>
+    <MPERuleRegexID>1000000015</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1030942</CommonEventID>
+    <CommonEventName>Authentication Activity</CommonEventName>
+    <MsgClassID>1020</MsgClassID>
+    <Name>EVID 4624 : Logon Events</Name>
+    <FullName>EVID 4624 : Logon Events</FullName>
+    <BaseRule>1</BaseRule>
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-24T14:47:01.07-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000124</MPERuleID>
+    <MPERuleRegexID>1000000015</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032790</CommonEventID>
+    <CommonEventName>Service Logon</CommonEventName>
+    <MsgClassID>1020</MsgClassID>
+    <Name>EVID 4624 : Logon Type 5</Name>
+    <FullName>EVID 4624 : Logon Type 5</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=5</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-24T14:47:01.073-04:00</DateUpdated>
+    <SortOrder>8</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSIP>*</MapSIP>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000125</MPERuleID>
+    <MPERuleRegexID>1000000015</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1030645</CommonEventID>
+    <CommonEventName>User Logon</CommonEventName>
+    <MsgClassID>1020</MsgClassID>
+    <Name>EVID 4624 : Logon Type 11</Name>
+    <FullName>EVID 4624 : Logon Type 11</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=11</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-24T14:47:01.073-04:00</DateUpdated>
+    <SortOrder>7</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSIP>*</MapSIP>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000126</MPERuleID>
+    <MPERuleRegexID>1000000015</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1030645</CommonEventID>
+    <CommonEventName>User Logon</CommonEventName>
+    <MsgClassID>1020</MsgClassID>
+    <Name>EVID 4624 : Logon Type 10</Name>
+    <FullName>EVID 4624 : Logon Type 10</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=10</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-24T14:47:01.073-04:00</DateUpdated>
+    <SortOrder>6</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSIP>*</MapSIP>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000127</MPERuleID>
+    <MPERuleRegexID>1000000015</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1030645</CommonEventID>
+    <CommonEventName>User Logon</CommonEventName>
+    <MsgClassID>1020</MsgClassID>
+    <Name>EVID 4624 : Logon Type 8</Name>
+    <FullName>EVID 4624 : Logon Type 8</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=8</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-24T14:47:01.073-04:00</DateUpdated>
+    <SortOrder>5</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSIP>*</MapSIP>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000128</MPERuleID>
+    <MPERuleRegexID>1000000015</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1030645</CommonEventID>
+    <CommonEventName>User Logon</CommonEventName>
+    <MsgClassID>1020</MsgClassID>
+    <Name>EVID 4624 : Logon Type 7</Name>
+    <FullName>EVID 4624 : Logon Type 7</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=7</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-24T14:47:01.073-04:00</DateUpdated>
+    <SortOrder>4</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSIP>*</MapSIP>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000129</MPERuleID>
+    <MPERuleRegexID>1000000015</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1030645</CommonEventID>
+    <CommonEventName>User Logon</CommonEventName>
+    <MsgClassID>1020</MsgClassID>
+    <Name>EVID 4624 : Logon Type 4</Name>
+    <FullName>EVID 4624 : Logon Type 4</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=4</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-24T14:47:01.073-04:00</DateUpdated>
+    <SortOrder>3</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSIP>*</MapSIP>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000130</MPERuleID>
+    <MPERuleRegexID>1000000015</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1030645</CommonEventID>
+    <CommonEventName>User Logon</CommonEventName>
+    <MsgClassID>1020</MsgClassID>
+    <Name>EVID 4624 : Logon Type 3</Name>
+    <FullName>EVID 4624 : Logon Type 3</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=3</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-24T14:47:01.073-04:00</DateUpdated>
+    <SortOrder>2</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSIP>*</MapSIP>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000131</MPERuleID>
+    <MPERuleRegexID>1000000015</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1030645</CommonEventID>
+    <CommonEventName>User Logon</CommonEventName>
+    <MsgClassID>1020</MsgClassID>
+    <Name>EVID 4624 : Logon Type 2</Name>
+    <FullName>EVID 4624 : Logon Type 2</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>0</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=2</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-24T14:47:01.07-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSIP>*</MapSIP>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERuleRegex>
+    <MPERuleRegexID>1000000015</MPERuleRegexID>
+    <RegexTagged>(?&gt;&lt;eventid&gt;(?&lt;vmid&gt;4624)&lt;/eventid&gt;\&lt;version\&gt;[^&lt;]+&lt;/version&gt;&lt;level&gt;(?&lt;severity&gt;[^&lt;]+)&lt;/level&gt;)(?:&lt;[^&gt;]+&gt;[^&lt;]*?&lt;[^&gt;]+&gt;){3}&lt;[^&gt;]+&gt;&lt;[^&gt;]+&gt;[^&lt;]+&lt;[^&gt;]+&gt;(?:&lt;[^&gt;]+&gt;){2}&lt;[^&gt;]+&gt;[^&lt;]+&lt;[^&gt;]+&gt;&lt;[^&gt;]+&gt;(?&lt;dname&gt;[^&lt;]+)&lt;[^&gt;]+&gt;(?:&lt;[^&gt;]+&gt;){3}(?:&lt;[^']+=[^&lt;]+&lt;[^&gt;]+&gt;){4}&lt;[^']+'[^']+'&gt;[^&lt;]+&lt;[^']+'targetusername'&gt;(?&lt;login&gt;[^&lt;]+)&lt;[^']+'targetdomainname'&gt;(?&lt;domain&gt;[^&lt;]+)&lt;[^']+(?&gt;'TargetLogonID'&gt;(?&lt;session&gt;[^&lt;]+)&lt;[^&gt;]+&gt;&lt;[^']+'LogonType'&gt;(?&lt;command&gt;(?&lt;tag1&gt;[^&lt;]+))&lt;[^&gt;]+&gt;&lt;[^']+'LogonProcessName'&gt;(-|(?&lt;process&gt;[^&lt;]+)))&lt;[^&gt;]+&gt;&lt;[^']+=[^&lt;]+&lt;[^&gt;]+&gt;&lt;[^']+'WorkstationName'&gt;(?&lt;sname&gt;[^&lt;]*?)&lt;[^&gt;]+&gt;(?:&lt;[^']+=[^&lt;]+&lt;[^&gt;]+&gt;){6}&lt;[^']+'IPAddress'&gt;(-|&lt;sip&gt;)&lt;[^&gt;]+&gt;&lt;[^']+'IPport'&gt;(-|(?&lt;sport&gt;[^&lt;]+))&lt;</RegexTagged>
+    <IgnoreCase>1</IgnoreCase>
+    <Multiline>0</Multiline>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-24T14:47:01.08-04:00</DateUpdated>
+    <PerfMonMode>1</PerfMonMode>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+  </MPERuleRegex>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000669</MsgSourceTypeID>
+    <MPERuleRegexID>1000000015</MPERuleRegexID>
+    <SortOrder>32</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000000006</MsgSourceTypeID>
+    <MPERuleRegexID>1000000015</MPERuleRegexID>
+    <SortOrder>6</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <CommonEvent>
+    <CommonEventID>1030645</CommonEventID>
+    <MsgClassID>1020</MsgClassID>
+    <Name>User Logon</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2011-02-08T18:36:35.26-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1030942</CommonEventID>
+    <MsgClassID>1020</MsgClassID>
+    <Name>Authentication Activity</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2011-02-13T16:21:15.773-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032790</CommonEventID>
+    <MsgClassID>1020</MsgClassID>
+    <Name>Service Logon</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2011-07-13T15:31:23.187-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000669</MsgSourceTypeID>
+    <Name>Syslog - MS Windows Event Logging XML - Security</Name>
+    <FullName>Syslog - MS Windows Event Logging XML - Security</FullName>
+    <Abbreviation>Syslog - MSEVTSecXML</Abbreviation>
+    <ShortDesc>For Splunk forwarded log data</ShortDesc>
+    <LongDesc />
+    <ParentMsgSourceTypeID>1</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-02-13T21:24:22.467-05:00</DateUpdated>
+    <MsgSourceFormat>1</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000000006</MsgSourceTypeID>
+    <Name>ECHO - MS Windows Event Logging XML - Security</Name>
+    <FullName>ECHO - MS Windows Event Logging XML - Security</FullName>
+    <Abbreviation>WinEvtXML - Security</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-03-16T22:29:59.25-04:00</DateUpdated>
+    <MsgSourceFormat>3</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+</RuleDataset>

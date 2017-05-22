@@ -1,0 +1,330 @@
+<?xml version="1.0" standalone="yes"?>
+<RuleDataset>
+  <ExportInfo>
+    <ExportConsoleVersion>7.3.0.0</ExportConsoleVersion>
+    <KBVersion>7.1.382.0</KBVersion>
+    <DateExported>2017-05-19T09:39:25.057971-04:00</DateExported>
+    <ExportLicense>646</ExportLicense>
+    <ExportUser>logrhythmadmin</ExportUser>
+  </ExportInfo>
+  <MPERule>
+    <MPERuleID>1000000123</MPERuleID>
+    <MPERuleRegexID>1000000014</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035713</CommonEventID>
+    <CommonEventName>Network Traffic</CommonEventName>
+    <MsgClassID>3520</MsgClassID>
+    <Name>Pattern 2 : Traffic Messages</Name>
+    <FullName>Pattern 2 : Traffic Messages</FullName>
+    <BaseRule>1</BaseRule>
+    <ShortDesc>Field Order: FUTURE_USE, Receive Time, Serial Number, Type, Subtype, FUTURE_USE, Generated Time, Source IP, Destination IP, NAT Source IP, NAT Destination IP, Rule Name, Source User, Destination User, Application, Virtual System, Source Zone, Destination</ShortDesc>
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:33:54.467-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>6</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>-1</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000119</MPERuleID>
+    <MPERuleRegexID>1000000014</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034432</CommonEventID>
+    <CommonEventName>Connection Reset</CommonEventName>
+    <MsgClassID>3520</MsgClassID>
+    <Name>Connection Reset - Client And Server</Name>
+    <FullName>Connection Reset - Client And Server</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag2>*</MapTag2>
+    <MapTag4>=reset-both</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:33:54.47-04:00</DateUpdated>
+    <SortOrder>4</SortOrder>
+    <VersionMajor>6</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>-1</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapDuration>*</MapDuration>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000120</MPERuleID>
+    <MPERuleRegexID>1000000014</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035709</CommonEventID>
+    <CommonEventName>Traffic Denied by Network Firewall</CommonEventName>
+    <MsgClassID>3510</MsgClassID>
+    <Name>Session Dropped</Name>
+    <FullName>Session Dropped</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>1</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag2>*</MapTag2>
+    <MapTag4>=Drop</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:33:54.47-04:00</DateUpdated>
+    <SortOrder>3</SortOrder>
+    <VersionMajor>6</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>-1</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapDuration>*</MapDuration>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000121</MPERuleID>
+    <MPERuleRegexID>1000000014</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035709</CommonEventID>
+    <CommonEventName>Traffic Denied by Network Firewall</CommonEventName>
+    <MsgClassID>3510</MsgClassID>
+    <Name>Session Denied At Application Layer</Name>
+    <FullName>Session Denied At Application Layer</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>1</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag2>*</MapTag2>
+    <MapTag4>=Deny</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:33:54.47-04:00</DateUpdated>
+    <SortOrder>2</SortOrder>
+    <VersionMajor>6</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>-1</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapDuration>*</MapDuration>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000122</MPERuleID>
+    <MPERuleRegexID>1000000014</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035498</CommonEventID>
+    <CommonEventName>Traffic Allowed by Network Firewall</CommonEventName>
+    <MsgClassID>3500</MsgClassID>
+    <Name>Session Traffic Allowed</Name>
+    <FullName>Session Traffic Allowed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>0</DefForwarding>
+    <DefForwardingBool>false</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag2>*</MapTag2>
+    <MapTag4>=allow</MapTag4>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:33:54.47-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>6</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>1</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>-1</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSIP>*</MapSIP>
+    <MapDIP>*</MapDIP>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapDuration>*</MapDuration>
+    <DefLogMartMode>13627390</DefLogMartMode>
+  </MPERule>
+  <MPERuleRegex>
+    <MPERuleRegexID>1000000014</MPERuleRegexID>
+    <RegexTagged>,(?&lt;vmid&gt;TRAFFIC),(?&lt;objectname&gt;\w+),(?&lt;tag2&gt;\d+),[^,]*,&lt;sip&gt;,&lt;dip&gt;,&lt;snatip&gt;,&lt;dnatip&gt;,(?&lt;command&gt;[^,]*),((?&lt;domain&gt;[^,]+)\\)?(?&lt;login&gt;[^,]*),([\w-_]+?\\+)?(?&lt;account&gt;[^,]*),(?&lt;object&gt;[^,]*),[^,]*,(?&lt;group&gt;[^,]*),(?&lt;subject&gt;[^,]*),(.*?,){3}(?&lt;session&gt;\d+),[^,]*,(?&lt;sport&gt;\d+),(?&lt;dport&gt;\d+),(.*?,){3}(((?&lt;protname&gt;\w+),)|((?&lt;sinterface&gt;[^,]+),))(?&lt;tag4&gt;[^,]*),\d+,(?&lt;bytesin&gt;\d+),(?&lt;bytesout&gt;\d+),(?&lt;packetsin&gt;\d+),[^,]*,(?&lt;seconds&gt;\d+),(?&lt;process&gt;[^,]*),</RegexTagged>
+    <IgnoreCase>1</IgnoreCase>
+    <Multiline>0</Multiline>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:33:54.487-04:00</DateUpdated>
+    <PerfMonMode>1</PerfMonMode>
+    <VersionMajor>6</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+  </MPERuleRegex>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000000002</MsgSourceTypeID>
+    <MPERuleRegexID>1000000014</MPERuleRegexID>
+    <SortOrder>2</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <CommonEvent>
+    <CommonEventID>1034432</CommonEventID>
+    <MsgClassID>3520</MsgClassID>
+    <Name>Connection Reset</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2012-04-25T15:08:08.013-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035498</CommonEventID>
+    <MsgClassID>3500</MsgClassID>
+    <Name>Traffic Allowed by Network Firewall</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2014-08-20T15:47:43.01-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035709</CommonEventID>
+    <MsgClassID>3510</MsgClassID>
+    <Name>Traffic Denied by Network Firewall</Name>
+    <ShortDesc />
+    <DefRiskRating>1</DefRiskRating>
+    <DateUpdated>2014-12-09T12:52:07.44-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035713</CommonEventID>
+    <MsgClassID>3520</MsgClassID>
+    <Name>Network Traffic</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2014-12-09T15:46:11.423-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000000002</MsgSourceTypeID>
+    <Name>ECHO - Palo Alto Networks</Name>
+    <FullName>ECHO - Palo Alto Networks</FullName>
+    <Abbreviation>Palo Alto Networks</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-03-16T00:58:53.78-04:00</DateUpdated>
+    <MsgSourceFormat>3</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+</RuleDataset>

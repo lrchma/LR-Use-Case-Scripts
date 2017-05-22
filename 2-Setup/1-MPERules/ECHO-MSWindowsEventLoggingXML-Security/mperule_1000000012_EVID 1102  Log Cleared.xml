@@ -1,0 +1,120 @@
+<?xml version="1.0" standalone="yes"?>
+<RuleDataset>
+  <ExportInfo>
+    <ExportConsoleVersion>7.3.0.0</ExportConsoleVersion>
+    <KBVersion>7.1.382.0</KBVersion>
+    <DateExported>2017-05-19T09:40:14.0039144-04:00</DateExported>
+    <ExportLicense>646</ExportLicense>
+    <ExportUser>logrhythmadmin</ExportUser>
+  </ExportInfo>
+  <MPERule>
+    <MPERuleID>1000000094</MPERuleID>
+    <MPERuleRegexID>1000000012</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034658</CommonEventID>
+    <CommonEventName>Log Cleared</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>EVID 1102 : Log Cleared</Name>
+    <FullName>EVID 1102 : Log Cleared</FullName>
+    <BaseRule>1</BaseRule>
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:17:38.327-04:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERuleRegex>
+    <MPERuleRegexID>1000000012</MPERuleRegexID>
+    <RegexTagged>&lt;EventID&gt;(?&lt;vmid&gt;1102)&lt;/EventID&gt;.*?&lt;Level&gt;(?&lt;severity&gt;.*?)&lt;/Level&gt;&lt;Task&gt;Log clear&lt;/Task&gt;&lt;Opcode&gt;Info&lt;/Opcode&gt;&lt;Keywords&gt;(?&lt;command&gt;.*?)&lt;/Keywords&gt;.*?&lt;Computer&gt;(?&lt;dname&gt;.*?)&lt;/Computer&gt;&lt;Security/&gt;&lt;/System&gt;&lt;UserData&gt;.*?&lt;SubjectUserName&gt;(?&lt;login&gt;.*?)&lt;/SubjectUserName&gt;&lt;SubjectDomainName&gt;(?&lt;domain&gt;.*?)&lt;/SubjectDomainName&gt;&lt;SubjectLoginID&gt;(?&lt;session&gt;.*?)&lt;/SubjectLoginId&gt;&lt;/LogFileCleared&gt;&lt;/UserData&gt;&lt;/Event&gt;</RegexTagged>
+    <IgnoreCase>1</IgnoreCase>
+    <Multiline>1</Multiline>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2017-03-23T00:17:38.337-04:00</DateUpdated>
+    <PerfMonMode>0</PerfMonMode>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>0</VersionMinor>
+  </MPERuleRegex>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000639</MsgSourceTypeID>
+    <MPERuleRegexID>1000000012</MPERuleRegexID>
+    <SortOrder>33</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000669</MsgSourceTypeID>
+    <MPERuleRegexID>1000000012</MPERuleRegexID>
+    <SortOrder>30</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000000006</MsgSourceTypeID>
+    <MPERuleRegexID>1000000012</MPERuleRegexID>
+    <SortOrder>3</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <CommonEvent>
+    <CommonEventID>1034658</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Log Cleared</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2013-04-15T12:46:30.23-04:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000639</MsgSourceTypeID>
+    <Name>MS Windows Event Logging XML - Security</Name>
+    <FullName>MS Windows Event Logging XML - Security</FullName>
+    <Abbreviation>WinEvtXML - Security</Abbreviation>
+    <ShortDesc>Slim format Windows Event Logs</ShortDesc>
+    <LongDesc />
+    <ParentMsgSourceTypeID>1</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-02-13T21:24:07.91-05:00</DateUpdated>
+    <MsgSourceFormat>28</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000669</MsgSourceTypeID>
+    <Name>Syslog - MS Windows Event Logging XML - Security</Name>
+    <FullName>Syslog - MS Windows Event Logging XML - Security</FullName>
+    <Abbreviation>Syslog - MSEVTSecXML</Abbreviation>
+    <ShortDesc>For Splunk forwarded log data</ShortDesc>
+    <LongDesc />
+    <ParentMsgSourceTypeID>1</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-02-13T21:24:22.467-05:00</DateUpdated>
+    <MsgSourceFormat>1</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000000006</MsgSourceTypeID>
+    <Name>ECHO - MS Windows Event Logging XML - Security</Name>
+    <FullName>ECHO - MS Windows Event Logging XML - Security</FullName>
+    <Abbreviation>WinEvtXML - Security</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2017-03-16T22:29:59.25-04:00</DateUpdated>
+    <MsgSourceFormat>3</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+</RuleDataset>
