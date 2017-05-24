@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remv1:Remediation-Plugin xmlns:remv1="RemediationVersion1.xsd" Name="Palo Alto Networks" Guid="9521e689-164a-4d96-9388-22fca0419923" Version="1" IsLogRhythmPlugin="false">
+  <remv1:Action Name="PAN: Add FQDN To Address Group" Command="C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe">
+    <!-- Block DNS -->
+    <remv1:ConstantParameter Name="Script"  Switch="-file PAN.ps1" Order="1" />
+	<remv1:StringParameter Name="Target FQDN" Switch="" Order="2">
+      <remv1:DefaultInput>
+        <remv1:DIP />
+      </remv1:DefaultInput>
+    </remv1:StringParameter>
+	<remv1:StringParameter Name="PAN Address-Group" Switch="" Order="3">
+    </remv1:StringParameter>
+	<remv1:StringParameter Name="PAN Tag" Switch="" Order="4">
+    </remv1:StringParameter>
+	</remv1:Action>
+  <remv1:Action Name="PAN: Add FQDN To Address Group 2" Command="C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe">
+    <!-- Block DNS -->
+    <remv1:ConstantParameter Name="Script"  Switch="-file PAN.ps1" Order="1" />
+	<remv1:StringParameter Name="Target FQDN" Switch="" Order="2">
+      <remv1:DefaultInput>
+        <remv1:DIP />
+      </remv1:DefaultInput>
+    </remv1:StringParameter>
+	<remv1:StringParameter Name="PAN Address-Group" Switch="" Order="3">
+    </remv1:StringParameter>
+	<remv1:StringParameter Name="PAN Tag" Switch="" Order="4">
+    </remv1:StringParameter>
+	</remv1:Action>
+  	<!-- Block IP -->
+	 <remv1:Action Name="PAN: Add IP Address To Address Group" Command="C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe">
+    <remv1:ConstantParameter Name="Script" Switch="-file PAN.ps1" Order="1" />
+	<remv1:StringParameter Name="Target IP" Switch="" Order="2">
+      <remv1:DefaultInput>
+        <remv1:DIP />
+      </remv1:DefaultInput>
+    </remv1:StringParameter>
+	<remv1:StringParameter Name="PAN Address-Group" Switch="" Order="3">
+    </remv1:StringParameter>
+	<remv1:StringParameter Name="PAN Tag" Switch="" Order="4">
+    </remv1:StringParameter>
+	</remv1:Action>
+	  	<!-- Block IP 2-->
+	 <remv1:Action Name="PAN: Add IP Address To Address Group 2" Command="C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe">
+    <remv1:ConstantParameter Name="Script" Switch="-file PAN.ps1" Order="1" />
+	<remv1:StringParameter Name="Target IP" Switch="" Order="2">
+      <remv1:DefaultInput>
+        <remv1:DIP />
+      </remv1:DefaultInput>
+    </remv1:StringParameter>
+	<remv1:StringParameter Name="PAN Address-Group" Switch="" Order="3">
+    </remv1:StringParameter>
+	<remv1:StringParameter Name="PAN Tag" Switch="" Order="4">
+    </remv1:StringParameter>
+	</remv1:Action>
+</remv1:Remediation-Plugin>

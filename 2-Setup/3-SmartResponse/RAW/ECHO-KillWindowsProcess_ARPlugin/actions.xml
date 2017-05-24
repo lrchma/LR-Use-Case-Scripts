@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remv1:Remediation-Plugin xmlns:remv1="RemediationVersion1.xsd" Name="Kill Windows Process" Guid="0a5c401e-6702-4fb2-b659-47d8eb05e672" Version="1" IsLogRhythmPlugin="false">
+  <remv1:Action Name="Kill Process Using Agent Credentials" Command="C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe">
+  <!-- Kill Process -->
+  <remv1:ConstantParameter Name="Script" Switch="-file KillProcess.ps1" Order="1" />
+    <remv1:StringParameter Name="Target Host" Switch="" Order="2">
+      <remv1:DefaultInput>
+        <remv1:DHostName />
+      </remv1:DefaultInput>
+    </remv1:StringParameter>
+    <remv1:StringParameter Name="Target Process" Switch="" Order="3">
+      <remv1:DefaultInput>
+        <remv1:Process />
+      </remv1:DefaultInput>
+    </remv1:StringParameter>
+  </remv1:Action>
+</remv1:Remediation-Plugin>

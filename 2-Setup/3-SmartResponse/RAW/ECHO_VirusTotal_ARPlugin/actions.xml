@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remv1:Remediation-Plugin xmlns:remv1="RemediationVersion1.xsd" Name="Virus Total Search" Guid="8e4918b7-cd23-4e1c-b279-4ac3aee92dff" Version="1" IsLogRhythmPlugin="false">
+  <remv1:Action Name="Virus Total: Hash Lookup" Command="C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe">
+  <!-- Hash Search -->
+  <remv1:ConstantParameter Name="Script" Switch="-file VTSearch.ps1" Order="1" />
+    <remv1:StringParameter Name="Action" Switch="-hash " Order="2" />
+  </remv1:Action>
+ </remv1:Remediation-Plugin>
