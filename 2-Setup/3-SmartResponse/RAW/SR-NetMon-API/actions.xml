@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remv1:Remediation-Plugin xmlns:remv1="RemediationVersion1.xsd" Name="LogRhythm Network Monitor" Guid="6e6cb4cc-4dbd-45ab-9f1c-b46a1535a660" Version="1" IsLogRhythmPlugin="false">
+  <!-- systemInfo -->
+  <remv1:Action Name="NetMon: systemInfo" Command="C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe">
+    <remv1:ConstantParameter Name="Script" Switch="-file NetMon-API.ps1" Order="1" />
+    <remv1:StringParameter Name="username" Switch="-username " Order="2">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="admin" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="password" Switch="-password " Order="3">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="a29d835a7c27401313d541f957d67831cbf054b74ac48624d7e55f3ac81460cd" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="url" Switch="-url " Order="4">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="https://192.168.3.198/api" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>	
+    <remv1:StringParameter Name="path" Switch="-path " Order="5">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="/systemInfo" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="method" Switch="-method " Order="6">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="GET" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>	
+  </remv1:Action>
+   <!-- /services/capture -->
+  <remv1:Action Name="NetMon: Get Capture Settings" Command="C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe">
+    <remv1:ConstantParameter Name="Script" Switch="-file NetMon-API.ps1" Order="1" />
+    <remv1:StringParameter Name="username" Switch="-username " Order="2">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="admin" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="password" Switch="-password " Order="3">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="a29d835a7c27401313d541f957d67831cbf054b74ac48624d7e55f3ac81460cd" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="url" Switch="-url " Order="4">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="https://192.168.3.198/api" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>	
+    <remv1:StringParameter Name="path" Switch="-path " Order="5">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="/services/capture" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="method" Switch="-method " Order="6">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="GET" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+  </remv1:Action>
+   <!-- /services/capture/actions/addCapturedApplications -->
+  <remv1:Action Name="NetMon: Add Captured Application" Command="C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe">
+    <remv1:ConstantParameter Name="Script" Switch="-file NetMon-API.ps1" Order="1" />
+    <remv1:StringParameter Name="username" Switch="-username " Order="2">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="admin" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="password" Switch="-password " Order="3">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="a29d835a7c27401313d541f957d67831cbf054b74ac48624d7e55f3ac81460cd" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="url" Switch="-url " Order="4">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="https://192.168.3.198/api" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>	
+    <remv1:StringParameter Name="path" Switch="-path " Order="5">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="/services/capture/actions/addCapturedApplications" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="method" Switch="-method " Order="6">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="PUT" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="application" Switch="-application " Order="7" />
+  </remv1:Action>
+   <!-- /services/capture/actions/removeCapturedApplications -->
+  <remv1:Action Name="NetMon: Remove Captured Application" Command="C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe">
+    <remv1:ConstantParameter Name="Script" Switch="-file NetMon-API.ps1" Order="1" />
+    <remv1:StringParameter Name="username" Switch="-username " Order="2">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="admin" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="password" Switch="-password " Order="3">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="a29d835a7c27401313d541f957d67831cbf054b74ac48624d7e55f3ac81460cd" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="url" Switch="-url " Order="4">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="https://192.168.3.198/api" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>	
+    <remv1:StringParameter Name="path" Switch="-path " Order="5">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="/services/capture/actions/removeCapturedApplications" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="method" Switch="-method " Order="6">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="PUT" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="application" Switch="-application " Order="7" />
+  </remv1:Action>
+   <!-- /services/capture/actions/addExcludedApplications -->
+  <remv1:Action Name="NetMon: Add Excluded Application" Command="C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe">
+    <remv1:ConstantParameter Name="Script" Switch="-file NetMon-API.ps1" Order="1" />
+    <remv1:StringParameter Name="username" Switch="-username " Order="2">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="admin" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="password" Switch="-password " Order="3">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="a29d835a7c27401313d541f957d67831cbf054b74ac48624d7e55f3ac81460cd" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="url" Switch="-url " Order="4">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="https://192.168.3.198/api" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>	
+    <remv1:StringParameter Name="path" Switch="-path " Order="5">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="/services/capture/actions/addExcludedApplications" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="method" Switch="-method " Order="6">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="PUT" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="application" Switch="-application " Order="7" />
+  </remv1:Action>
+   <!-- /services/capture/actions/removeExcludedApplications -->
+  <remv1:Action Name="NetMon: Remove Excluded Application" Command="C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe">
+    <remv1:ConstantParameter Name="Script" Switch="-file NetMon-API.ps1" Order="1" />
+    <remv1:StringParameter Name="username" Switch="-username " Order="2">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="admin" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="password" Switch="-password " Order="3">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="a29d835a7c27401313d541f957d67831cbf054b74ac48624d7e55f3ac81460cd" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="url" Switch="-url " Order="4">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="https://192.168.3.198/api" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>	
+    <remv1:StringParameter Name="path" Switch="-path " Order="5">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="/services/capture/actions/removeExcludedApplications" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="method" Switch="-method " Order="6">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="PUT" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="application" Switch="-application " Order="7" />
+  </remv1:Action>
+   <!-- /services/actions/restart -->
+  <remv1:Action Name="NetMon: Restart" Command="C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe">
+    <remv1:ConstantParameter Name="Script" Switch="-file NetMon-API.ps1" Order="1" />
+    <remv1:StringParameter Name="username" Switch="-username " Order="2">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="admin" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="password" Switch="-password " Order="3">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="a29d835a7c27401313d541f957d67831cbf054b74ac48624d7e55f3ac81460cd" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="url" Switch="-url " Order="4">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="https://192.168.3.198/api" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>	
+    <remv1:StringParameter Name="path" Switch="-path " Order="5">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="/services/actions/restart" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+    <remv1:StringParameter Name="method" Switch="-method " Order="6">
+		<remv1:DefaultInput>
+			<remv1:StaticInput Value="PUT" />
+		</remv1:DefaultInput>
+	</remv1:StringParameter>
+  </remv1:Action>   
+</remv1:Remediation-Plugin>
